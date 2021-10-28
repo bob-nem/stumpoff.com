@@ -1,9 +1,11 @@
 .container {
+    max-width: 75rem;
     background-image: url(../images/backgrounds/header.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     min-height: 961px;
+    margin: 0 auto;
 }
 
 .label {

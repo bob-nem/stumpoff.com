@@ -1,0 +1,27 @@
+.RotateStrip {
+    height: 8rem;
+    width: 1920px;
+    background-color: #d2e7f9;
+    transform: rotate(357deg);
+}
+
+.Container {
+    background-color: #d2e7f9;
+    height: 80rem;
+    margin-top: -4rem;
+}
+
+.Header{
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+}
+
+.HeaderDescription {
+    font-family: 'Luckiest Guy';
+    color: white;
+    font-size: 2.1rem;
+    text-align: center;
+    -webkit-text-stroke: 1px #074578;
+    text-shadow: 3px 3px 5px #07457879;
+}

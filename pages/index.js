@@ -3,6 +3,7 @@ import style from '../styles/Home.module.css'
 
 import Header from './blocks/header'
 import About from './blocks/about'
+import Reasons from './blocks/reasons'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={style.main}>
         <Header />
         <About />
+        <Reasons />
       </main>
       <footer className={style.footer}>
       </footer>

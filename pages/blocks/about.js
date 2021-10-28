@@ -5,7 +5,7 @@ import Grinder from '../../images/backgrounds/grinder.webp'
 
 export default function About () {
     return (
-        <>
+        <div className={style.Wrapper}>
             <div className={style.Container}>
                 <div className={style.Left}>
                     <h2>ABOUT US</h2>
@@ -25,9 +25,6 @@ export default function About () {
             <div style={{display: 'flex', justifyContent: 'center', margin: '3rem 0'}}>
                 <button className={style.Button}>Get a quote</button>
             </div>
-            <div className={style.RotateStrip}>
-
-            </div>
-        </>
+        </div>
     )
 }

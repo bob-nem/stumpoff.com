@@ -2,9 +2,10 @@
     from {transform: translateX(100%);}
 }
 
-@keyframes show {
-    from {opacity: 0;} to {opacity: 1;}
-  }
+.Wrapper {
+    max-width: 75rem;
+    margin: 0 auto;
+}
 
 .Container {
     display: grid;
@@ -60,16 +61,4 @@
 .Button:hover {
     background: linear-gradient(#eba46b, #eb762f);
     transform: scale(1.05);
-}
-
-.RotateStrip {
-    height: 5rem;
-    background-color: #d2e7f9;
-    background-image: url("");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    opacity: 1;
-    transform: rotate(357deg);
-    border-color: transparent;
 }
