@@ -1,0 +1,56 @@
+.container {
+    background-image: url(../images/backgrounds/header.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 961px;
+}
+
+.label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.Hover {
+    transition: .5s; 
+}
+
+.Hover:hover {
+    transform: scale(1.05);
+}
+
+.Header {
+    font-size: 6.25rem;
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.HeaderDescription {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+    filter: drop-shadow(1px 1px 7px white);
+    margin-top: 2rem;
+}
+
+.Button {
+    width: 18rem;
+    height: 4.5rem;
+    color: white;
+    background: linear-gradient(#eba46b, #eb762f);
+    border: 1px solid #944b1e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    filter: drop-shadow(3px 2px 7px #944b1e);
+    transition: .5s;
+}
+
+.Button:hover {
+    background: linear-gradient(#eba46b, #eb762f);
+    transform: scale(1.05);
+}
