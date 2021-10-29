@@ -16,6 +16,7 @@ body, p {
 
 p {
   color: #074578;
+  font-size: 21px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +34,8 @@ a {
 }
 
 li {
-    list-style: none;
+  color: #074578;
+  font-size: 21px;
 }
 
 button {

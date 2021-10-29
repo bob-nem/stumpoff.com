@@ -1,17 +1,16 @@
-import Image from 'next/image'
-import style from '../../styles/Reasons.module.css'
+import Image from 'next/image';
+import style from '../../styles/Team.module.css';
 
-import Work01 from '../../images/pictures/work01.jpg'
-import Work02 from '../../images/pictures/work02.jpg'
+import Work03 from '../../images/pictures/work03.jpg'
+import Work04 from '../../images/pictures/work04.jpg'
 
-export default function Reasons() {
+export default function () {
     return (
         <>
             <div className={style.RotateStrip}></div>
             <div className={style.Wrapper}>
                 <div className={style.Container}>
-                    <h2 className={style.Header}>TOP10 REASONS</h2>
-                    <p className={style.HeaderDescription}>why you should remove the stumps at your property.</p>
+                    <h2 className={style.Header}>why you should only hire our team.</h2>
                     <div className={style.FirstRow}>
                         <div className={style.FirstRowLeft}>
                             <ol>
@@ -24,7 +23,7 @@ export default function Reasons() {
                         </div>
                         <div className={style.FirstRowRight}>
                             <Image
-                                src={Work01}
+                                src={Work03}
                                 alt="land before stump gringing"
                             />
                         </div>
@@ -32,7 +31,7 @@ export default function Reasons() {
                     <div className={style.SecondRow}>
                         <div className={style.SecondRowLeft}>
                             <Image
-                                src={Work02}
+                                src={Work04}
                                 alt="plot before and after stump grinding"
                             />
                         </div>
@@ -45,9 +44,6 @@ export default function Reasons() {
                                 <li>Stumps may be the reasons for new trees to grow.</li>
                             </ol>
                         </div>
-                    </div>
-                    <div className={style.ThirdRow}>
-                        <p>We have experienced all these, and other kinds of problem people face when having a tree stump in their yard. However, we will be happy and eager to help you out and get rid of all these unnecessary problems. We perform our work easily, efficiently, fast and best.</p>
                     </div>
                 </div>
             </div>

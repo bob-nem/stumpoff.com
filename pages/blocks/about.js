@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import style from '../../styles/About.module.css'
 
-import Grinder from '../../images/backgrounds/grinder.webp'
+import Grinder from '../../images/pictures/grinder.webp'
 
 export default function About () {
     return (
