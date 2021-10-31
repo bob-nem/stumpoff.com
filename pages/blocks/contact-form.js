@@ -31,7 +31,6 @@ export default function ContactForm() {
     }
     return (
         <div className={style.Container}>
-            <h2>Any question or remarks? Just write us a message!</h2>
             <form onSubmit={handleSubmit(onSubmitForm)}>
                 <div className={style.Row}>
                     <input
@@ -47,7 +46,7 @@ export default function ContactForm() {
                         type="text"
                         name="email"
                         {...register("email", {
-                            required: { value: true, message: 'You must enter you email address' },
+                            required: { value: false, message: 'You must enter you email address' },
                             minLength: { value: 7, message: 'This is not long enough to be an email' },
                             maxLength: { value: 120, message: 'This is too long' },
                             pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, message: 'This needs to be a valid email address' }
@@ -60,31 +59,14 @@ export default function ContactForm() {
                     <input
                         type="text"
                         name="phone"
-                        {...register("phone", { required: false })}
+                        {...register("phone", { required: true })}
                         placeholder="Phone"
                     />
-                </div>
-                <div className={style.RowWithRB}>
-                    <label className={style.OptiTypes}>What Type Of Optimization Do You Need?</label>
-                    <div className={style.RBs}>
-                        <div className={style.RB}>
-                            <input type="radio" id="radiopersonal" name="type" value="personal" />
-                            <label htmlFor="radiopersonal">Sales</label>
-                        </div>
-                        <div className={style.RB}>
-                            <input type="radio" id="radioecommerce" name="type" value="ecommerce" />
-                            <label htmlFor="radioecommerce">Corporate</label>
-                        </div>
-                        <div className={style.RB}>
-                            <input type="radio" id="radiolandingpage" name="type" value="landingpage" />
-                            <label htmlFor="radiolandingpage">Industry</label>
-                        </div>
-                    </div>
                 </div>
                 <div className={style.Row}>
                     <textarea
                         name="message"
-                        rows="4"
+                        rows="5"
                         {...register("Message", {
                             required: { value: true, message: "You need to enter your message" },
                             maxLength: { value: 1618, message: "Your message can't be more than 1618 characters" },
@@ -93,8 +75,11 @@ export default function ContactForm() {
                         placeholder="Message"></textarea>
                     <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.Message?.message}</span>
                 </div>
-                <div className={style.RowB}>
-                    <button className="primary">Send Message</button>
+                <div className={style.RowButtonChoose}>
+                    <button className="primary">choose a file</button>
+                </div>
+                <div className={style.RowButtonSend}>
+                    <button className="primary">Send request</button>
                 </div>
             </form>
         </div>

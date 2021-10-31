@@ -11,7 +11,6 @@ export default function GetaQuote() {
         <div className={style.Wrapper}>
             <div className={style.Container}>
                 <div className={style.Photos}>
-
                     <Image
                         src={Work05}
                         alt="stumoff truck after stum grinding"

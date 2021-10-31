@@ -20,8 +20,11 @@
 }
 
 .Photos {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
     padding: 5rem 0;
-    margin-right: -20rem;
+    margin-right: -16rem;
 }
 
 .ContactForm {
