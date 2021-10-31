@@ -1,0 +1,36 @@
+.Wrapper {
+    background-color: #d2e7f9;
+    padding-bottom: 3rem;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.Header {
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px #074578;
+    text-shadow: 3px 3px 5px #6b7883;
+    padding: 4rem 0 3rem;
+}
+
+.Photos {
+    padding: 5rem 0;
+    margin-right: -20rem;
+}
+
+.ContactForm {
+    width: 60rem;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 0 4rem 0 20rem;    
+}
+
+.ContactForm p {
+    font-weight: 300;
+}

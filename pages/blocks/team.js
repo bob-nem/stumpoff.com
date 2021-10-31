@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import style from '../../styles/Team.module.css';
+import Image from 'next/image'
+import style from '../../styles/Team.module.css'
 
 import Work03 from '../../images/pictures/work03.jpg'
 import Work04 from '../../images/pictures/work04.jpg'
