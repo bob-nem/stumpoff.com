@@ -37,7 +37,7 @@ export default function ContactForm() {
                         type="text"
                         name="name"
                         {...register("name", { required: { value: true, message: 'You must enter you name' } })}
-                        placeholder="Full name"
+                        placeholder="Name"
                     />
                     <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.name?.message}</span>
                 </div>

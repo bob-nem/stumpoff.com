@@ -18,6 +18,15 @@
     filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.9));
     padding: 1.6em;
   }
+
+  .Row input::placeholder, .Row textarea::placeholder {
+    font-family: 'Luckiest Guy',Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .Row input:focus, .Row textarea:focus{
+    border: 2px solid #074578;
+  }
   
   .RowButtonChoose {
     display: flex;

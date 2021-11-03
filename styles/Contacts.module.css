@@ -1,0 +1,69 @@
+.Wrapper {
+    background-color: #ff9045;
+    padding-bottom: 3rem;
+}
+
+.Container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.Top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+.Left {
+    padding: 0;
+}
+
+.Right {
+    padding: 1rem 5rem 0 0rem;
+}
+
+.Right p {
+    line-height: 1.6;
+    padding-right: 7rem;
+    padding-bottom: 1.5em;
+}
+
+.Header {
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px #074578;
+    text-shadow: 3px 3px 5px #6b7883;
+    padding: 3rem 0 2rem;
+}
+
+.Map {
+    width: 100%;
+    height: 24rem;
+}
+
+.Areas {
+    width: 760px;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+
+.Areas h3 {
+    float: right;
+    color: black;
+    border-top: 1px solid black;
+    font-family: Ubuntu;
+    font-size: 2rem;
+    -webkit-text-stroke: 0px #074578;
+    text-shadow: 2px 2px 5px #07457878;
+    padding: .5em;
+}
+
+.Areas p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: black;    
+}
