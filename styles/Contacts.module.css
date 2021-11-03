@@ -31,6 +31,13 @@
     padding-bottom: 1.5em;
 }
 
+.Right a {
+    font-size: 21px;
+    line-height: 1.6;
+    padding-right: 7rem;
+    padding-bottom: 1.5em;
+}
+
 .Header {
     font-size: 4.7rem;
     text-transform: uppercase;
@@ -57,7 +64,7 @@
     font-family: Ubuntu;
     font-size: 2rem;
     -webkit-text-stroke: 0px #074578;
-    text-shadow: 2px 2px 5px #07457878;
+    text-shadow: 2px 2px 5px #ff904575;
     padding: .5em;
 }
 
@@ -65,5 +72,5 @@
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.6;
-    color: black;    
+    color: black;
 }

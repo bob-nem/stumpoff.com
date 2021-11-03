@@ -8,6 +8,7 @@ import Team from './blocks/team'
 import Getaquote from './blocks/getaquote'
 import Feedback from './blocks/feedback'
 import Contacts from './blocks/contacts'
+import Footer from './blocks/footer'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <Contacts />
       </main>
       <footer className={style.footer}>
+        <Footer />
       </footer>
     </div>
   )
