@@ -1,0 +1,116 @@
+.header {
+  position: fixed;
+  right: 0;
+  border-bottom: 1px solid #074578;
+  border-left: 1px solid #074578;
+  border-bottom-left-radius: 2rem;
+  padding-right: 0;
+  z-index: 3;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #944b1e;
+  border-left: 2px solid #944b1e;
+  border-bottom-left-radius: 2rem;
+  background: linear-gradient(#eba46b, #eb762f);
+  z-index: 3;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  right: -100%;
+  top: 1rem;
+  bottom: 1rem;    
+  width: 20rem;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #074578 , #074578);
+  background-size: cover;
+  background-position: top;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  padding: 3em 0;
+  z-index: -1;
+}
+
+  .navmenu.active {
+    right: 0;
+    z-index: -1;
+  }
+
+  .navitem {
+    margin: .5em 0;
+  }
+
+  .navlink{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 0px 3px #042948);
+    -webkit-text-stroke: .5px #d2e7f9;
+  }
+
+  .navlink:hover{
+    color: #ff9045;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .bar {
+    display: block;
+    width: 3.5rem;
+    height: 4px;
+    margin: .5rem auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    filter: drop-shadow(2px 2px 3px #ff9045);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+
+.image {
+  transition: .5s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    padding: .5rem 1rem;
+  }
+  .bar {
+    width: 2.5rem;
+  }
+}

@@ -7,7 +7,7 @@ import Phone from '../../images/icons/phone.svg'
 
 export default function Header() {
     return (
-        <div className={style.container}>
+        <div className={style.container} id="home">
             <div className={style.label}>
                 <div className={style.Hover} style={{width: '7.5rem'}}> 
                     <Image 

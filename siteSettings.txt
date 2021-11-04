@@ -1,0 +1,4 @@
+colors:
+#074578; - blue
+#ff9045; - orange
+#d2e7f9; - light blue

@@ -7,7 +7,7 @@ import Work02 from '../../images/pictures/work02.jpg'
 export default function Reasons() {
     return (
         <>
-            <div className={style.RotateStrip}></div>
+            <div className={style.RotateStrip} id="howwework"></div>
             <div className={style.Wrapper}>
                 <div className={style.Container}>
                     <h2 className={style.Header}>TOP10 REASONS</h2>

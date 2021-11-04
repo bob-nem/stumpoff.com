@@ -8,7 +8,7 @@ import Work06 from '../../images/pictures/work06.jpg'
 
 export default function GetaQuote() {
     return (
-        <div className={style.Wrapper}>
+        <div className={style.Wrapper} id="getaquote">
             <div className={style.Container}>
                 <div className={style.Photos}>
                     <Image

@@ -5,7 +5,7 @@ import HaBadges from '../../images/icons/HomeAdvisor-badges.webp'
 
 export default function Feedback () {
     return (
-        <div className={style.Container}>
+        <div className={style.Container} id="feedback">
             <h2 className={style.Header}>Feedback</h2>
             <div style={{height: "40vh"}}></div>
             <div className={style.Badges}>

@@ -11,7 +11,7 @@ export default function Feedback() {
         <>
             <div className={style.Wrapper}>
                 <div className={style.Container}>
-                    <div className={style.Top}>
+                    <div className={style.Top} id="contact">
                         <div className={style.Left}>
                             <Image
                                 src={Chainsaw}

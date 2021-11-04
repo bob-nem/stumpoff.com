@@ -27,6 +27,7 @@
 }
 
 .HeaderDescription {
+    position: relative;
     font-family: 'Luckiest Guy';
     color: white;
     font-size: 2.1rem;

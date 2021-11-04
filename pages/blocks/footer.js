@@ -14,11 +14,11 @@ export default function Footer() {
                     />
                 </div>
                 <div className={style.Links}>
-                    <a href="https://stumpoff.com/">About</a>
-                    <a href="https://stumpoff.com/">How we work</a>
-                    <a href="https://stumpoff.com/">Gallery</a>
-                    <a href="https://stumpoff.com/">Get a quote</a>
-                    <a href="https://stumpoff.com/">Contact</a>
+                    <a href="/#home">About</a>
+                    <a href="/#howwework">How we work</a>
+                    <a href="/#gallery">Gallery</a>
+                    <a href="/#getaquote">Get a quote</a>
+                    <a href="/#contact">Contact</a>
                 </div>
                 <div className={style.Contacts}>
                     <p style={{ paddingBottom: "4rem" }}>39 Sinclair St, <br />Windsor, CT 06095</p>
