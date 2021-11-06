@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form'
 import axios from 'axios'
 import { useRouter } from 'next/router'
+import NEXT_PUBLIC_API_URL from '../../.env.local'
 
 import style from '../../styles/ContactForm.module.css'
 
@@ -10,7 +11,7 @@ export default function ContactForm() {
     async function onSubmitForm(values) {
         let config = {
             method: 'post',
-            url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact.js`,
+            url: `${NEXT_PUBLIC_API_URL}/api/contact`,
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -20,7 +21,7 @@ export default function ContactForm() {
         try {
             const response = await axios(config);
             console.log(response);
-            if (response.status == 200) {
+            if (response.data.status == 200) {
                 reset();
                 toast(
                     'success',
@@ -56,8 +57,8 @@ export default function ContactForm() {
                     <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.email?.message}</span>
                 </div>
                 <div className={style.Row}>
-                    <input
-                        type="text"
+                    <input                        
+                        type="number"
                         name="phone"
                         {...register("phone", { required: true })}
                         placeholder="Phone"
@@ -65,12 +66,13 @@ export default function ContactForm() {
                 </div>
                 <div className={style.Row}>
                     <textarea
+                        type="text"
                         name="message"
                         rows="5"
-                        {...register("Message", {
-                            required: { value: true, message: "You need to enter your message" },
+                        {...register("message", {
+                            required: { value: false, message: "You need to enter your message" },
                             maxLength: { value: 1618, message: "Your message can't be more than 1618 characters" },
-                            minLength: { value: 31, message: "Your message must be longer than this" }
+                            minLength: { value: 16, message: "Your message must be longer than this" }
                         })}
                         placeholder="Message"></textarea>
                     <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.Message?.message}</span>

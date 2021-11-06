@@ -1,5 +1,5 @@
 import GoogleMapReact from 'google-map-react'
-import MAP_API_KEY from '../../apikey'
+import API_KEY from '../../apikey'
 
 const GoogleMaps = ({ latitude, longitude }) => {
   const renderMarkers = (map, maps) => {
@@ -14,7 +14,7 @@ const GoogleMaps = ({ latitude, longitude }) => {
   return (
     <div style={{ height: '100%', width: '100%' }}>
      <GoogleMapReact
-       bootstrapURLKeys={{ key: MAP_API_KEY }}
+       bootstrapURLKeys={{ key: API_KEY.map }}
        defaultCenter={{ lat: 41.9321503477228, lng: -72.557959959218 }}
        defaultZoom={15}
        yesIWantToUseGoogleMapApiInternals

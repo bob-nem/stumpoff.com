@@ -33,7 +33,7 @@ export default function Feedback() {
             </div>
             <div className={style.Areas}>
                 <p>
-                    <h3>SERVICE AREAS</h3>
+                    <strong>SERVICE AREAS</strong>
                         Holyoke, Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
                 </p>            
             </div>
