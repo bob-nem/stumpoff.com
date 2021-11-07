@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form'
 import axios from 'axios'
 import { useRouter } from 'next/router'
-import NEXT_PUBLIC_API_URL from '../../.env.local'
+import API_KEY from '../../apikey'
 
 import style from '../../styles/ContactForm.module.css'
 
@@ -11,7 +11,7 @@ export default function ContactForm() {
     async function onSubmitForm(values) {
         let config = {
             method: 'post',
-            url: `${NEXT_PUBLIC_API_URL}/api/contact`,
+            url: `${API_KEY.url}/api/contact`,
             headers: {
                 'Content-Type': 'application/json',
             },

@@ -11,7 +11,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 1.5rem 2rem;
+  
   border-bottom: 2px solid #944b1e;
   border-left: 2px solid #944b1e;
   border-bottom-left-radius: 2rem;
@@ -66,6 +66,7 @@
   .hamburger {
     display: block;
     cursor: pointer;
+    padding: 1.5rem 2rem;
     z-index: 3;
   }
 
