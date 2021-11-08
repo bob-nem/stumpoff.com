@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import style from '../../styles/Footer.module.css'
-
+import EmailForm from './email-form'
 import StumpOffLogo from '../../images/icons/footerLogo.webp'
 
 export default function Footer() {
@@ -26,16 +26,7 @@ export default function Footer() {
                     <a href="tel:+18606907268">(860) 690 72 68</a>
                 </div>
                 <div className={style.MailForm}>
-                    <form>
-                        <input
-                            type="text"
-                            name="email"
-                            placeholder="E-mail"
-                        />
-                        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
-                            <button className={style.Button}>Get a quote today</button>
-                        </div>
-                    </form>
+                    <EmailForm />
                 </div>
             </div>
             <div className={style.UnderFooter}>

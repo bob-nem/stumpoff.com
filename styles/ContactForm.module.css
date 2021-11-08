@@ -1,81 +1,83 @@
 .Container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
-    padding-right: 1rem;
-  }
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding-right: 1rem;
+}
 
-  .Row {
-    padding: .7em 0;
-  }
+.Row {
+  padding: .7em 0;
+}
+
+@-moz-document url-prefix() {
+  .Row {margin-bottom: -15px;}
+}
   
-  .Row input, .Row textarea {
-    width: 100%;
-    font-size: 21px;
-    color: #074578;
-    background: transparent;
-    border: none;
-    border: 2px solid #074578;
-    border-radius: 2rem;
-    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.9));
-    padding: .75em;
-  }
+.Row input, .Row textarea {
+  width: 100%;
+  font-size: 21px;
+  color: #074578;
+  background: transparent;
+  border: none;
+  border: 2px solid #074578;
+  border-radius: 2rem;
+  filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.9));
+  padding: .75em;
+}
 
-  .Row input::-webkit-outer-spin-button, .Row input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
+.Row input::placeholder, .Row textarea::placeholder {
+  font-family: 'Luckiest Guy',Arial, sans-serif;
+  font-size: 1.2rem;
+}
 
-   .Row input::placeholder, .Row textarea::placeholder {
-    font-family: 'Luckiest Guy',Arial, sans-serif;
-    font-size: 1.2rem;
-  }
+.Row input:focus, .Row textarea:focus{
+  border: 2px solid #074578;
+}
 
-  .Row input:focus, .Row textarea:focus{
-    border: 2px solid #074578;
-  }
+.Row span {
+  color: #ea4335;
+  font-size: .8rem;
+  padding-left: .5em;
+}
   
-  .RowButtonChoose {
-    display: flex;
-    justify-content: flex-start;
-    padding: .5em;
-  }
-  
-  .RowButtonChoose button {
-    width: 12rem;
-    height: 2rem;
-    color: white;
-    cursor: pointer;
-    background: #1a377c;
-    border: none;
-    text-transform: uppercase;
-    border-radius: .5rem;
-  }
-  
-  .RowButtonChoose button:hover {
-    background: #2f57ac;
-  }
+.RowButtonChoose input {
+  visibility: hidden;
+}
 
-  .RowButtonSend {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-  }
+.RowButtonChoose label {
+  display: flex;
+  width: 12rem;
+  height: 3rem;
+  border-radius: .5rem;
+  background: #074578;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
 
-  .RowButtonSend button {
-    width: 18rem;
-    height: 4.5rem;
-    color: white;
-    cursor: pointer;
-    background: linear-gradient(#eba46b, #eb762f);
-    border: 1px solid #944b1e;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border-radius: 1.5rem;
-    filter: drop-shadow(3px 2px 7px #944b1e);
-    transition: .5s;
-  }
+.RowButtonSend {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
 
-  .RowButtonSend button:hover {
-    background: linear-gradient(#eba46b, #eb762f);
-    transform: scale(1.05);
-  }
+.RowButtonSend button {
+  width: 18rem;
+  height: 4.5rem;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(#eba46b, #eb762f);
+  border: 1px solid #944b1e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  filter: drop-shadow(3px 2px 7px #944b1e);
+  transition: .5s;
+ }
+
+.RowButtonSend button:hover {
+  background: linear-gradient(#eba46b, #eb762f);
+  transform: scale(1.05);
+}

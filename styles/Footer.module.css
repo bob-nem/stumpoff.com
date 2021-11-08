@@ -28,39 +28,24 @@
 }
 
 .MailForm {
-    padding-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    top: 0;
     padding-left: 3em;
 }
 
 .MailForm input {
+    background-color: white;
+    align-self: flex-start;
     width: 100%;
     border: none;
     border: 2px solid #074578;
-    border-radius: 2rem;
-    padding: 1.6em;
+    border-radius: 2rem;   
 }
 
 .MailForm input::placeholder {
     font-family: 'Luckiest Guy',Arial, sans-serif;
     font-size: 1.2rem;
-}
-
-.Button {
-    width: 18rem;
-    height: 4.5rem;
-    color: white;
-    background: linear-gradient(#eba46b, #eb762f);
-    border: 1px solid #944b1e;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border-radius: 1.5rem;
-    filter: drop-shadow(3px 2px 7px #944b1e);
-    transition: .5s;
-}
-
-.Button:hover {
-    background: linear-gradient(#eba46b, #eb762f);
-    transform: scale(1.05);
 }
 
 .UnderFooter {

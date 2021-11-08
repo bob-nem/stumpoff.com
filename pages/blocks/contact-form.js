@@ -8,7 +8,9 @@ import style from '../../styles/ContactForm.module.css'
 export default function ContactForm() {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const router = useRouter();
+    
     async function onSubmitForm(values) {
+        
         let config = {
             method: 'post',
             url: `${API_KEY.url}/api/contact`,
@@ -40,7 +42,7 @@ export default function ContactForm() {
                         {...register("name", { required: { value: true, message: 'You must enter you name' } })}
                         placeholder="Name"
                     />
-                    <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.name?.message}</span>
+                    <span>{errors?.name?.message}</span>
                 </div>
                 <div className={style.Row}>
                     <input
@@ -54,15 +56,21 @@ export default function ContactForm() {
                         })}
                         placeholder="E-mail"
                     />
-                    <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.email?.message}</span>
+                    <span>{errors?.email?.message}</span>
                 </div>
                 <div className={style.Row}>
                     <input                        
-                        type="number"
+                        type="phone"
                         name="phone"
-                        {...register("phone", { required: true })}
+                        {...register("phone", {
+                            required: { value: true, message: "You need to enter your phone" },
+                            minLength: { value: 4, message: "Your phone must be longer than this" },
+                            maxLength: { value: 12, message: 'This is too long' },
+                            pattern: { value: /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/g, message: "Wrong format" },
+                        })}
                         placeholder="Phone"
                     />
+                    <span>{errors?.phone?.message}</span>
                 </div>
                 <div className={style.Row}>
                     <textarea
@@ -75,10 +83,17 @@ export default function ContactForm() {
                             minLength: { value: 16, message: "Your message must be longer than this" }
                         })}
                         placeholder="Message"></textarea>
-                    <span style={{ color: "#ea4335", fontSize: ".8rem", paddingLeft: ".5em" }}>{errors?.Message?.message}</span>
+                    <span>{errors?.Message?.message}</span>
                 </div>
                 <div className={style.RowButtonChoose}>
-                    <button className="primary">choose a file</button>
+                    <label for="picture">Select a file</label>
+                    <input
+                        type="file"
+                        id="picture"
+                        name="picture"
+                        multiple
+                        {...register("picture", { required: false })}                              
+                    />
                 </div>
                 <div className={style.RowButtonSend}>
                     <button className="primary">Send request</button>
