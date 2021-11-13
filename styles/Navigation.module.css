@@ -11,12 +11,12 @@
 .navbar {
   display: flex;
   align-items: center;
-  
   border-bottom: 2px solid #944b1e;
   border-left: 2px solid #944b1e;
   border-bottom-left-radius: 2rem;
   background: linear-gradient(#eba46b, #eb762f);
   z-index: 3;
+
 }
 
 .navmenu {
@@ -102,14 +102,17 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .navbar {
+  .hamburger {
     padding: 1rem 1.5rem;
+  }
+  .bar {
+    width: 3rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .navbar {
-    padding: .5rem 1rem;
+  .hamburger {
+    padding: .75rem 1.5rem;
   }
   .bar {
     width: 2.5rem;

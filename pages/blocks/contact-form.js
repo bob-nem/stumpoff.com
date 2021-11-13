@@ -86,7 +86,7 @@ export default function ContactForm() {
                     <span>{errors?.Message?.message}</span>
                 </div>
                 <div className={style.RowButtonChoose}>
-                    <label for="picture">Select a file</label>
+                    <label htmlFor="picture">Select a file</label>
                     <input
                         type="file"
                         id="picture"

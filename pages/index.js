@@ -9,6 +9,7 @@ import Getaquote from './blocks/getaquote'
 import Feedback from './blocks/feedback'
 import Contacts from './blocks/contacts'
 import Footer from './blocks/footer'
+import Gallery from './blocks/gallery'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <Reasons />
         <Team />
+        <Gallery />
         <Getaquote />
         <Feedback />
         <Contacts />

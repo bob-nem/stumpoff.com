@@ -1,0 +1,60 @@
+.Container {
+    max-width: 75rem;
+    margin: auto;
+    padding: 3rem 6% 12rem;
+}
+
+.MainImg {
+    position: relative;
+    z-index: -1;
+}
+
+.Header {
+    font-size: 4.7rem;
+    text-align: center;
+}
+
+.Description {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.ArrowRight, .ArrowLeft {
+  color: #074578;
+  font-size: 3rem;
+}
+
+.ArrowRight:hover, .ArrowLeft:hover {
+    color: #ff9045;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .Container {
+       padding: 3rem 1.5rem 2rem;
+    }
+    .ArrowRight {
+        position: relative;
+        margin-left: -.6rem;
+        font-size: 1.75rem;
+    }
+    .ArrowLeft {
+        position: relative;
+        margin-left: 1.8rem;
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Container {
+       padding: 1.5rem ;
+    }
+    .ArrowRight, .ArrowLeft {
+        font-size: 1.5rem;
+    }
+    .ArrowLeft {
+        position: relative;
+        margin-left: 2rem;
+    }
+}
