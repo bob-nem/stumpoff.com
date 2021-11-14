@@ -23,27 +23,47 @@ export default function Gallery() {
     const [slider2, setSlider2] = useState(null);
 
     useEffect(() => {
-
         setNav1(slider1);
         setNav2(slider2);
-
     });
+
+    const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+        <button
+            {...props}
+            className={
+                "slick-prev slick-arrow" +
+                (currentSlide === 0 ? " slick-disabled" : "")
+            }
+            aria-hidden="true"
+            aria-disabled={currentSlide === 0 ? true : false}
+            type="button"
+        >
+            <div className={style.ArrowLeft}><BsArrowLeftSquareFill /></div>
+        </button>
+    );
+    const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
+        <button
+            {...props}
+            className={
+                "slick-next slick-arrow" +
+                (currentSlide === slideCount - 1 ? " slick-disabled" : "")
+            }
+            aria-hidden="true"
+            aria-disabled={currentSlide === slideCount - 1 ? true : false}
+            type="button"
+        >
+            <div className={style.ArrowRight}><BsArrowRightSquareFill /></div>
+        </button>
+    );
+
 
     const settingsMain = {
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
         asNavFor: '.slider-nav',
-        nextArrow: (
-            <div>
-                <div className={style.ArrowRight}><BsArrowRightSquareFill /></div>
-            </div>
-        ),
-        prevArrow: (
-            <div>
-                <div className={style.ArrowLeft}><BsArrowLeftSquareFill /></div>
-            </div>
-        )
+        nextArrow: <SlickArrowRight />,
+        prevArrow: <SlickArrowLeft />
     };
 
     const settingsThumbs = {
