@@ -21,11 +21,12 @@ export default function Gallery() {
     const [nav2, setNav2] = useState(null);
     const [slider1, setSlider1] = useState(null);
     const [slider2, setSlider2] = useState(null);
+    
 
     useEffect(() => {
         setNav1(slider1);
         setNav2(slider2);
-    });
+    },[slider1, slider2]);
 
     const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
         <button
@@ -88,30 +89,30 @@ export default function Gallery() {
                 asNavFor={nav2}
                 ref={slider => (setSlider1(slider))}
             >
-                <div className={style.MainImg}><Image src={firstIMG} /></div>
-                <div className={style.MainImg}><Image src={secondIMG} /></div>
-                <div className={style.MainImg}><Image src={thirdIMG} /></div>
-                <div className={style.MainImg}><Image src={fourthIMG} /></div>
-                <div className={style.MainImg}><Image src={fifthIMG} /></div>
-                <div className={style.MainImg}><Image src={sixthIMG} /></div>
-                <div className={style.MainImg}><Image src={seventhIMG} /></div>
-                <div className={style.MainImg}><Image src={eightIMG} /></div>
-                <div className={style.MainImg}><Image src={ninegthIMG} /></div>
+                <div className={style.MainImg}><Image src={firstIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={secondIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={thirdIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={fourthIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={fifthIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={sixthIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={seventhIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={eightIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={ninegthIMG} alt="stump off before and after works"/></div>
             </Slider>
             <div className="thumbnail-slider-wrap">
                 <Slider
                     {...settingsThumbs}
                     asNavFor={nav1}
                     ref={slider => (setSlider2(slider))}>
-                    <div><Image src={firstIMG} /></div>
-                    <div><Image src={secondIMG} /></div>
-                    <div><Image src={thirdIMG} /></div>
-                    <div><Image src={fourthIMG} /></div>
-                    <div><Image src={fifthIMG} /></div>
-                    <div><Image src={sixthIMG} /></div>
-                    <div><Image src={seventhIMG} /></div>
-                    <div><Image src={eightIMG} /></div>
-                    <div><Image src={ninegthIMG} /></div>
+                    <div><Image src={firstIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={secondIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={thirdIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={fourthIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={fifthIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={sixthIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={seventhIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={eightIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={ninegthIMG} alt="stump off before and after works"/></div>
                 </Slider>
             </div>
         </div>

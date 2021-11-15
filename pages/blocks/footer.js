@@ -15,11 +15,11 @@ export default function Footer() {
                     />
                 </div>
                 <div className={style.Links}>
-                    <a href="/#home">About</a>
-                    <a href="/#howwework">How we work</a>
-                    <a href="/#gallery">Gallery</a>
-                    <a href="/#getaquote">Get a quote</a>
-                    <a href="/#contact">Contact</a>
+                    <Link href="/#home"><a>About</a></Link>
+                    <Link href="/#howwework"><a>How we work</a></Link>
+                    <Link href="/#gallery"><a>Gallery</a></Link>
+                    <Link href="/#getaquote"><a>Get a quote</a></Link>
+                    <Link href="/#contact"><a>Contact</a></Link>
                 </div>
                 <div className={style.Contacts}>
                     <p style={{ paddingBottom: "4rem" }}>39 Sinclair St, <br />Windsor, CT 06095</p>

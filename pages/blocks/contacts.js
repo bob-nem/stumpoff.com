@@ -7,7 +7,7 @@ import { BsCalendar2WeekFill } from 'react-icons/bs'
 
 import Chainsaw from '../../images/pictures/stump-with-chainsaw.webp'
 
-export default function Feedback() {
+export default function Contacts() {
     return (
         <>
             <div className={style.Wrapper}>

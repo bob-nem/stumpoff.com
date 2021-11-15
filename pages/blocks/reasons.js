@@ -18,7 +18,7 @@ export default function Reasons() {
                                 <li>Old tree stumps can ruin your landscape look.</li>
                                 <li>Stumps can become the perfect home for termites, ants, rodents and even wasps.</li>
                                 <li>Having a stump at your yard can make mowing much harder to perform.</li>
-                                <li>Instead of occupying property's space with an ugly and rotten stump you could plant some flowers, bushes or have a nice lawn. </li>
+                                <li>Instead of occupying property&apos;s space with an ugly and rotten stump you could plant some flowers, bushes or have a nice lawn. </li>
                                 <li>Tree roots can become a hidden danger for your house. They damage the underground structure of your residence.</li>
                             </ol>
                         </div>
