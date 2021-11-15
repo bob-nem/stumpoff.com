@@ -80,7 +80,7 @@ export default function Gallery() {
     };
 
     return (
-        <div className={style.Container}>
+        <div className={style.Container} id="gallery">
             <h2 className={style.Header}>Gallery</h2>
             <p className={style.Description}>here you can see before and after results of our work</p>
             <Slider

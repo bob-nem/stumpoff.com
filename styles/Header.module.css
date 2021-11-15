@@ -16,12 +16,16 @@
     padding-top: 3rem;
 }
 
-.Hover {
+.Phone, .OurProjects {
     transition: .5s;
 }
 
-.Hover:hover {
+.Phone:hover, .OurProjects:hover {
     transform: scale(1.05);
+}
+
+.OurProjectsMobile {
+    display: none;
 }
 
 .Header {
@@ -55,4 +59,38 @@
 .Button:hover {
     background: linear-gradient(#eba46b, #eb762f);
     transform: scale(1.05);
+}
+
+.Button:after {
+    background: linear-gradient(#eba46b, #eb762f);
+}
+
+@media only screen and (max-width: 75rem) {
+    .container {
+        min-height: 48rem;
+    }
+    .label {
+        display: flex;
+        flex-direction: column;
+    }
+    .Header {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    .HeaderDescription {
+        font-size: 1.1rem;
+        font-weight: 300;
+        padding: 0 4rem;
+        margin-top: 0;
+    }
+    .OurProjects {
+        display: none;
+    }
+    .OurProjectsMobile {
+        display: flex;
+        padding: 1rem 0;
+    }
+    .Phone {
+
+    }
 }

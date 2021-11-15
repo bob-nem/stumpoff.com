@@ -63,6 +63,34 @@
     color: white;
 }
   
-  .UnderFooterLink:hover {
+.UnderFooterLink:hover {
     color: #ff9045;
+}
+
+@media only screen and (max-width: 75rem) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .Logo {
+        margin: 0 auto;
+        max-width: 8rem;
+    }
+    .Links {
+        text-align: center;
+        padding: 1em 0
+    }
+    .Contacts {
+        text-align: center;
+        padding: 0;
+    }
+    .MailForm {
+        justify-content: center;
+        padding: 0;
+    }
+    .UnderFooter {
+        text-align: center;
+        padding: .5em;
+    }
 }

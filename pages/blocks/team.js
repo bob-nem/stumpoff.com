@@ -44,6 +44,12 @@ export default function () {
                                 <li>Stumps may be the reasons for new trees to grow.</li>
                             </ol>
                         </div>
+                        <div className={style.SecondRowLeftMobile}>
+                            <Image
+                                src={Work04}
+                                alt="plot before and after stump grinding"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -19,3 +19,9 @@
     justify-self: flex-end;
     margin-bottom: -137px;
 }
+
+@media only screen and (max-width: 75rem) {
+    .Container {
+        padding-bottom: 3.6rem;
+    }
+}

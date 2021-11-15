@@ -30,6 +30,10 @@
     margin-top: 2rem;
 }
 
+.GetQuoteMobile {
+    display: none;
+}
+
 .Right {
     background-image: url(../images/backgrounds/noroot.webp);
     background-repeat: no-repeat;
@@ -43,6 +47,12 @@
     margin-left: -1rem;
     margin-bottom: -1.5rem;
     animation: showRight 2s ease-in;
+}
+
+.GetQuote {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
 }
 
 .Button {
@@ -61,4 +71,32 @@
 .Button:hover {
     background: linear-gradient(#eba46b, #eb762f);
     transform: scale(1.05);
+}
+
+@media only screen and (max-width: 75rem) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .Left {
+        padding: 0 2rem;
+    }
+    .Left h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .Left p {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .GetQuoteMobile {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .GetQuote {
+        display: none;
+    }
 }

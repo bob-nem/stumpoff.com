@@ -99,3 +99,31 @@ button:focus {
 .slick-slide {
   padding: 0 6px;
 }
+
+.gVpROL {
+  color: white;
+  border: 1px solid #944b1e;
+  background: linear-gradient(#eba46b, #eb762f);
+  filter: drop-shadow(3px 2px 4px #944b1e);
+  transition: .5s;
+}
+
+.gVpROL:hover {
+  background: linear-gradient(#eba46b, #eb762f);
+  transform: scale(1.05);
+}
+
+.cWsVKk {
+  color: #074578 !important;
+}
+
+@media only screen and (max-width: 75rem) {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Luckiest Guy', Arial, sans-serif;
+    color: white;
+    -webkit-text-stroke: 2px #074578;
+    text-shadow: 1px 1px 3px #074578;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+}

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import style from '../../styles/Footer.module.css'
 import EmailForm from './email-form'

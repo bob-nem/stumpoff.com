@@ -31,7 +31,12 @@
 
 @media only screen and (max-width: 920px) {
     .Container {
-       padding: 3rem 1.75rem 2rem;
+       padding: 3rem 1.75rem 6rem;
+    }
+    .Header {
+        font-size: 3rem;
+        -webkit-text-stroke: 2px #074578;
+        text-shadow: 3px 3px 5px #6b78838f;
     }
     .ArrowRight, .ArrowLeft {
         font-size: 2rem;
@@ -44,6 +49,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .Container {
+        padding: 3rem 1.75rem 4rem;
+     }
     .ArrowRight {
         margin-left: -.7rem;
         font-size: 1.75rem;

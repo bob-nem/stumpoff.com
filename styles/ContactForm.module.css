@@ -81,3 +81,13 @@
   background: linear-gradient(#eba46b, #eb762f);
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 75rem) {
+  .Container {
+    padding: 0 1rem;
+  }
+  .RowButtonSend {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+}

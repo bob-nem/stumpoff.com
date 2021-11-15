@@ -58,6 +58,10 @@
     margin-right:1em;
 }
 
+.SecondRowLeftMobile {
+    display: none;
+}
+
 .SecondRowRight {
     height: fit-content;
     width: 50%;
@@ -66,4 +70,46 @@
     padding: 1rem;
     margin-top: 3rem;
     margin-left: 2em;
+}
+
+@media only screen and (max-width: 75rem) {
+    .Wrapper {
+        padding-bottom: 2rem;
+    }
+    .Container li {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    .Header{
+        font-size: 1.6rem;
+        -webkit-text-stroke: 1px #074578;
+        padding: 1rem;
+    }
+    .FirstRow {
+        flex-direction: column;
+    }
+    .FirstRowLeft {
+        width: 95%;
+        margin: 0 auto;
+        padding: .5rem;
+    }
+    .FirstRowRight {
+        margin: .75rem auto;
+    }
+    .SecondRow {
+        flex-direction: column;
+        margin: 0;
+    }
+    .SecondRowLeft {
+        display: none;
+    }
+    .SecondRowRight {
+        width: 95%;
+        margin: 0 auto;
+        padding: .5rem;
+    }
+    .SecondRowLeftMobile {
+        display: flex;
+        margin: .75rem auto;
+    }
 }

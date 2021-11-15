@@ -45,6 +45,12 @@ export default function Reasons() {
                                 <li>Stumps may be the reasons for new trees to grow.</li>
                             </ol>
                         </div>
+                        <div className={style.SecondRowLeftMobile}>
+                            <Image
+                                src={Work02}
+                                alt="plot before and after stump grinding"
+                            />
+                        </div>
                     </div>
                     <div className={style.ThirdRow}>
                         <p>We have experienced all these, and other kinds of problem people face when having a tree stump in their yard. However, we will be happy and eager to help you out and get rid of all these unnecessary problems. We perform our work easily, efficiently, fast and best.</p>
