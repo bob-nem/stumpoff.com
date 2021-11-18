@@ -9,7 +9,7 @@ import Getaquote from './blocks/getaquote'
 import Feedback from './blocks/feedback'
 import Contacts from './blocks/contacts'
 import Footer from './blocks/footer'
-import Gallery from './blocks/gallery'
+import Gallery from './blocks/carousel'
 
 export default function Home() {
   return (

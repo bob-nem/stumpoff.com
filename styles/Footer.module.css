@@ -27,6 +27,14 @@
     padding-left: 2em;
 }
 
+.Links ul {
+    margin: 0;
+}
+
+.Links li {
+    padding-bottom: 1em;
+}
+
 .MailForm {
     display: flex;
     align-items: flex-start;

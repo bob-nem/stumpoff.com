@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
 import style from '../styles/Navigation.module.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import StumpOffLogo from '../images/icons/stumpOffLogoMin.webp'
 
@@ -12,38 +12,38 @@ export default function Navigation({ children }) {
     <div className={style.header}>
       <nav className={style.navbar}>
         <ul className={isOpen === false ? style.navmenu : style.navmenu + ' ' + style.active}>
-          <Link href='/#home'>
+          <AnchorLink href='#home'>
             <a className={style.image}>
               <Image
                 src={StumpOffLogo}
                 alt="stumpoff company logotype"
               />
             </a>
-          </Link>
+          </AnchorLink>
           <li className={style.navitem}>
-            <Link href='/#howwework'>
+            <AnchorLink href='#howwework'>
               <a className={style.navlink}>How we work</a>
-            </Link>
+            </AnchorLink>
           </li>
           <li className={style.navitem}>
-            <Link href='/#gallery'>
+            <AnchorLink href='#gallery'>
               <a className={style.navlink}>Gallery</a>
-            </Link>
+            </AnchorLink>
           </li>
           <li className={style.navitem}>
-            <Link href='/#getaquote'>
+            <AnchorLink href='#getaquote'>
               <a className={style.navlink}>Get a quote</a>
-            </Link>
+            </AnchorLink>
           </li>
           <li className={style.navitem}>
-            <Link href='/#feedback'>
+            <AnchorLink href='#feedback'>
               <a className={style.navlink}>Feedback</a>
-            </Link>
+            </AnchorLink>
           </li>
           <li className={style.navitem}>
-            <Link href='/#contact'>
+            <AnchorLink href='#contact'>
               <a className={style.navlink}>Contact</a>
-            </Link>
+            </AnchorLink>
           </li>
         </ul>
         <button className={isOpen === false ?

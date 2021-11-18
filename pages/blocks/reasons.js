@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import style from '../../styles/Reasons.module.css'
 
-import Work01 from '../../images/pictures/work01.jpg'
-import Work02 from '../../images/pictures/work02.jpg'
+import Work01 from '../../images/pictures/work01.webp'
+import Work02 from '../../images/pictures/work02.webp'
 
 export default function Reasons() {
     return (

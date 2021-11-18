@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import style from '../../styles/About.module.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Grinder from '../../images/pictures/grinder.webp'
 
@@ -15,9 +16,9 @@ export default function About() {
                     <p>A stump grinder is a designated specialist piece of machinery that specifically removes tree stumps. Built on a wheeled or tracked chassis they come in different engine sizes and power.</p>
                     <p style={{ paddingBottom: '1rem' }}>We provide the LOWEST prices for service in Connecticut.</p>
                     <div className={style.GetQuoteMobile}>
-                        <Link href='/#getaquote'>
+                        <AnchorLink href='#getaquote'>
                             <a><button className={style.Button}>Get a quote</button></a>
-                        </Link>
+                        </AnchorLink>
                     </div>
                 </div>
                 <div className={style.Right}>
@@ -29,9 +30,9 @@ export default function About() {
                 </div>
             </div>
             <div className={style.GetQuote}>
-                <Link href='/#getaquote'>
+                <AnchorLink href='#getaquote'>
                     <a><button className={style.Button}>Get a quote</button></a>
-                </Link>
+                </AnchorLink>
             </div>
         </div>
     )

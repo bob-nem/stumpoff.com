@@ -1,7 +1,8 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import style from '../../styles/Footer.module.css'
 import EmailForm from './email-form'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import StumpOffLogo from '../../images/icons/footerLogo.webp'
 
 export default function Footer() {
@@ -15,11 +16,13 @@ export default function Footer() {
                     />
                 </div>
                 <div className={style.Links}>
-                    <Link href="/#home"><a>About</a></Link>
-                    <Link href="/#howwework"><a>How we work</a></Link>
-                    <Link href="/#gallery"><a>Gallery</a></Link>
-                    <Link href="/#getaquote"><a>Get a quote</a></Link>
-                    <Link href="/#contact"><a>Contact</a></Link>
+                    <ul>
+                        <li><AnchorLink href="#home"><a>About</a></AnchorLink></li>
+                        <li><AnchorLink href='#howwework'><a>How we work</a></AnchorLink></li>
+                        <li><AnchorLink href="#gallery"><a>Gallery</a></AnchorLink></li>
+                        <li><AnchorLink href="#getaquote"><a>Get a quote</a></AnchorLink></li>
+                        <li><AnchorLink href="#contact"><a>Contact</a></AnchorLink></li>
+                    </ul>
                 </div>
                 <div className={style.Contacts}>
                     <p style={{ paddingBottom: "4rem" }}>39 Sinclair St, <br />Windsor, CT 06095</p>

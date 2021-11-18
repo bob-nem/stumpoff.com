@@ -3,8 +3,8 @@ import style from '../../styles/Getaquote.module.css'
 
 import ContactForm from './contact-form'
 
-import Work05 from '../../images/pictures/work05.jpg'
-import Work06 from '../../images/pictures/work06.jpg'
+import Work05 from '../../images/pictures/work05.webp'
+import Work06 from '../../images/pictures/work06.webp'
 
 export default function GetaQuote() {
     return (

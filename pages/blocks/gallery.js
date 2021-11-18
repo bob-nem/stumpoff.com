@@ -6,15 +6,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 
-import firstIMG from '../../images/our-works/1.jpg'
-import secondIMG from '../../images/our-works/3.jpg'
-import thirdIMG from '../../images/our-works/4.jpg'
-import fourthIMG from '../../images/our-works/5.jpg'
-import fifthIMG from '../../images/our-works/6.jpg'
-import sixthIMG from '../../images/our-works/7.jpg'
-import seventhIMG from '../../images/our-works/8.jpg'
-import eightIMG from '../../images/our-works/9.jpg'
-import ninegthIMG from '../../images/our-works/10.jpg'
+import firstIMG from '../../images/our-works/1.webp'
+import secondIMG from '../../images/our-works/3.webp'
+import thirdIMG from '../../images/our-works/4.webp'
+import fourthIMG from '../../images/our-works/5.webp'
+import fifthIMG from '../../images/our-works/6.webp'
+import sixthIMG from '../../images/our-works/7.webp'
+import seventhIMG from '../../images/our-works/8.webp'
+import eightIMG from '../../images/our-works/9.webp'
+import ninegthIMG from '../../images/our-works/10.webp'
 
 export default function Gallery() {
     const [nav1, setNav1] = useState(null);

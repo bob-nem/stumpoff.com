@@ -73,6 +73,10 @@
     transform: scale(1.05);
 }
 
+.Button:after, .Button:before, .Button:visited, .Button:focus {
+    background: linear-gradient(#eba46b, #eb762f);
+}
+
 @media only screen and (max-width: 75rem) {
     .Container {
         display: flex;
