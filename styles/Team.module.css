@@ -33,6 +33,7 @@
 
 .FirstRow {
     display: flex;
+    justify-content: space-between;
 }
 
 .FirstRowLeft {
@@ -48,14 +49,17 @@
 .SecondRow {
     display: flex;
     margin-top: -1rem;
+    justify-content: space-between;
 }
 
 .FirstRowRight {
     margin-left: 1em;
+    width: 50%;
 }
 
 .SecondRowLeft {
     margin-right:1em;
+    margin-top: -4rem;
 }
 
 .SecondRowLeftMobile {
@@ -94,6 +98,7 @@
         padding: .5rem;
     }
     .FirstRowRight {
+        width: 100%;
         margin: .75rem auto;
     }
     .SecondRow {

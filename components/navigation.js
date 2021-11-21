@@ -12,7 +12,7 @@ export default function Navigation({ children }) {
     <div className={style.header}>
       <nav className={style.navbar}>
         <ul className={isOpen === false ? style.navmenu : style.navmenu + ' ' + style.active}>
-          <AnchorLink href='#home'>
+          <AnchorLink href='#home' onClick={openMenu}>
             <a className={style.image}>
               <Image
                 src={StumpOffLogo}
@@ -22,27 +22,27 @@ export default function Navigation({ children }) {
           </AnchorLink>
           <li className={style.navitem}>
             <AnchorLink href='#howwework'>
-              <a className={style.navlink}>How we work</a>
+              <a className={style.navlink} onClick={openMenu}>How we work</a>
             </AnchorLink>
           </li>
           <li className={style.navitem}>
             <AnchorLink href='#gallery'>
-              <a className={style.navlink}>Gallery</a>
+              <a className={style.navlink} onClick={openMenu}>Gallery</a>
             </AnchorLink>
           </li>
           <li className={style.navitem}>
             <AnchorLink href='#getaquote'>
-              <a className={style.navlink}>Get a quote</a>
+              <a className={style.navlink} onClick={openMenu}>Get a quote</a>
             </AnchorLink>
           </li>
           <li className={style.navitem}>
             <AnchorLink href='#feedback'>
-              <a className={style.navlink}>Feedback</a>
+              <a className={style.navlink} onClick={openMenu}>Feedback</a>
             </AnchorLink>
           </li>
           <li className={style.navitem}>
             <AnchorLink href='#contact'>
-              <a className={style.navlink}>Contact</a>
+              <a className={style.navlink} onClick={openMenu}>Contact</a>
             </AnchorLink>
           </li>
         </ul>
