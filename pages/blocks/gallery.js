@@ -63,6 +63,7 @@ export default function Gallery() {
         slidesToScroll: 1,
         fade: true,
         asNavFor: '.slider-nav',
+        lazyLoad: 'progressive',
         nextArrow: <SlickArrowRight />,
         prevArrow: <SlickArrowLeft />
     };
@@ -77,7 +78,7 @@ export default function Gallery() {
         focusOnSelect: true,
         centerPadding: '5px',
         arrows: false,
-        margin: '4px'
+        margin: '4px',
     };
 
     return (
@@ -89,30 +90,30 @@ export default function Gallery() {
                 asNavFor={nav2}
                 ref={slider => (setSlider1(slider))}
             >
-                <div className={style.MainImg}><Image src={firstIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={secondIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={thirdIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={fourthIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={fifthIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={sixthIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={seventhIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={eightIMG} alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={ninegthIMG} alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={firstIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={thirdIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={fourthIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={fifthIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={sixthIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
             </Slider>
             <div className="thumbnail-slider-wrap">
                 <Slider
                     {...settingsThumbs}
                     asNavFor={nav1}
                     ref={slider => (setSlider2(slider))}>
-                    <div><Image src={firstIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={secondIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={thirdIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={fourthIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={fifthIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={sixthIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={seventhIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={eightIMG} alt="stump off before and after works"/></div>
-                    <div><Image src={ninegthIMG} alt="stump off before and after works"/></div>
+                    <div><Image src={firstIMG}  unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={thirdIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={fourthIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={fifthIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={sixthIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
                 </Slider>
             </div>
         </div>
