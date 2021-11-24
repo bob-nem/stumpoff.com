@@ -23,12 +23,9 @@ export default function ContactForm() {
         try {
             const response = await axios(config);
             console.log(response);
-            if (response.data.status == 200) {
+            if (response.status == 200) {
                 reset();
-                toast(
-                    'success',
-                    'Thank you for contacting us, we will be in touch soon.'
-                );
+                router.push('/');
             }
         } catch (err) { console.log(err); }
     }

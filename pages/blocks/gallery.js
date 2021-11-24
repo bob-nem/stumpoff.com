@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 
 import firstIMG from '../../images/our-works/1.webp'
+import tenIMG from '../../images/our-works/2.webp'
 import secondIMG from '../../images/our-works/3.webp'
 import thirdIMG from '../../images/our-works/4.webp'
 import fourthIMG from '../../images/our-works/5.webp'
@@ -15,6 +16,17 @@ import sixthIMG from '../../images/our-works/7.webp'
 import seventhIMG from '../../images/our-works/8.webp'
 import eightIMG from '../../images/our-works/9.webp'
 import ninegthIMG from '../../images/our-works/10.webp'
+import elevenIMG from '../../images/our-works/11.webp'
+import twenteenIMG from '../../images/our-works/12.webp'
+import thurteenIMG from '../../images/our-works/13.webp'
+import fourteenIMG from '../../images/our-works/14.webp'
+import fifteenIMG from '../../images/our-works/15.webp'
+import sixteenIMG from '../../images/our-works/16.webp'
+import seventeenIMG from '../../images/our-works/22.webp'
+import eightteenIMG from '../../images/our-works/18.webp'
+import nineteenIMG from '../../images/our-works/19.webp'
+import twentyIMG from '../../images/our-works/20.webp'
+import twentyoneIMG from '../../images/our-works/21.webp'
 
 export default function Gallery() {
     const [nav1, setNav1] = useState(null);
@@ -99,6 +111,18 @@ export default function Gallery() {
                 <div className={style.MainImg}><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
                 <div className={style.MainImg}><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
                 <div className={style.MainImg}><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={tenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={elevenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={twenteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={thurteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={fourteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={fifteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={sixteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={seventeenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={eightteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={nineteenIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={twentyIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={twentyoneIMG} unoptimized alt="stump off before and after works"/></div>
             </Slider>
             <div className="thumbnail-slider-wrap">
                 <Slider
@@ -114,6 +138,18 @@ export default function Gallery() {
                     <div><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={tenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={elevenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={twenteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={thurteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={fourteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={fifteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={sixteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={seventeenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={eightteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={nineteenIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={twentyIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={twentyoneIMG} unoptimized alt="stump off before and after works"/></div>
                 </Slider>
             </div>
         </div>
