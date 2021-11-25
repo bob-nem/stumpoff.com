@@ -1,6 +1,7 @@
 .container {
   max-width: 120rem;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .main {

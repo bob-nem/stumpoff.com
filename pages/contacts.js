@@ -1,6 +1,7 @@
 
 import style from '../styles/Contacts.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import GoogleMap from './blocks/map'
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 import { GrMail } from 'react-icons/gr'
@@ -38,7 +39,7 @@ export default function ContactUs() {
             <div className={style.Areas}>
                 <p>
                     <strong>SERVICE AREAS</strong>
-                    Holyoke, Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
+                    <Link href="areas/holyoke"><a>Holyoke,</a></Link> Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
                 </p>
             </div>
             <Footer />

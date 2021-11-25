@@ -6,10 +6,10 @@ import About from './blocks/about'
 import Reasons from './blocks/reasons'
 import Team from './blocks/team'
 import Getaquote from './blocks/getaquote'
+import Gallery from './blocks/gallery'
 import Feedback from './blocks/feedback'
 import Contacts from './blocks/contacts'
 import Footer from './blocks/footer'
-import Gallery from './blocks/gallery'
 
 export default function Home() {
   return (
@@ -18,10 +18,31 @@ export default function Home() {
         <title>Tree Stump Grinding</title>
         <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps" />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://tutorialswebsite.com/cdn/google_places.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDRERbmhKNYw45rS88_NY_UYztPXIhA3Iw&signed_in=true&libraries=places"></script>
+        <meta name="msvalidate.01" content="B8ACE33552C4541B4DEC70E874CE71D1" />
+        <link
+          rel="preload"
+          href="/fonts/LuckiestGuy-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Ubuntu-Light.ttf)"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Ubuntu-Regular.ttf)"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Ubuntu-Medium.ttf)"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <main className={style.main}>
         <Header />
