@@ -18,6 +18,10 @@ export default function Home() {
         <title>Tree Stump Grinding</title>
         <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps" />
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://tutorialswebsite.com/cdn/google_places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDRERbmhKNYw45rS88_NY_UYztPXIhA3Iw&signed_in=true&libraries=places"></script>
       </Head>
       <main className={style.main}>
         <Header />

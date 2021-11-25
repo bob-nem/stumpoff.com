@@ -4,6 +4,7 @@
     align-items: center;
     max-width: 75rem;
     margin: 0 auto;
+    min-height: 75vh;
 }
 
 .Header {
@@ -12,16 +13,107 @@
     -webkit-text-stroke: 3px #074578;
     text-shadow: 3px 3px 5px #6b7883;
     text-align: center;
-    padding: 4rem 0 3rem;
+    padding: 4rem 0 0;
+}
+
+.ReviewList {
+    display: flex;
+    align-content: space-between;
+    flex-flow: column wrap;
+    height: 80vh;
+    grid-gap: .5rem;
+    padding-top: 2rem;
+    counter-reset: items;
+}
+
+.Review {
+    position: relative;
+    width: 50%;
+    height: fit-content;
+    border: 1px solid #d2e7f9;
+    border-radius: .75rem;
+    padding: 1rem 1.5rem;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
+}
+
+.Review:nth-child(2n) { order: 1; }
+.Review:nth-child(2n) { order: 2; }
+
+.ReviewList::before,
+.ReviewList::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+
+.ReviewHeader {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ReviewText h3 {
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
+    color: #074578;
+    -webkit-text-stroke: 0px #074578;
+    text-shadow: none;
+    padding-top: 1em;
+}
+
+.ReviewText p {
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+.Review a {
+    color: #ff9045;
+}
+
+.Review a:hover {
+    text-decoration: underline;
+}
+
+.Button {
+    width: 18rem;
+    height: 4.5rem;
+    color: white;
+    background: linear-gradient(#eba46b, #eb762f);
+    border: 1px solid #944b1e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    filter: drop-shadow(3px 2px 7px #944b1e);
+    transition: .5s;
+    margin-top: 1rem;
+}
+
+.Button:hover {
+    background: linear-gradient(#eba46b, #eb762f);
+    transform: scale(1.05);
+}
+
+.Button:after, .Button:before, .Button:visited, .Button:focus {
+    background: linear-gradient(#eba46b, #eb762f);
 }
 
 .Badges {
     justify-self: flex-end;
     margin-bottom: -137px;
+    margin-top: 2rem;
 }
 
 @media only screen and (max-width: 75rem) {
     .Container {
         padding-bottom: 3.6rem;
+    }
+    .ReviewList {
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .Review {
+        width: 100%;
+        margin: 0 2px;
     }
 }

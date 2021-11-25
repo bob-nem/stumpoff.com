@@ -1,7 +1,7 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
 import style from '../styles/Navigation.module.css'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import StumpOffLogo from '../images/icons/stumpOffLogoMin.webp'
 
@@ -12,38 +12,38 @@ export default function Navigation({ children }) {
     <div className={style.header}>
       <nav className={style.navbar}>
         <ul className={isOpen === false ? style.navmenu : style.navmenu + ' ' + style.active}>
-          <AnchorLink href='#home' onClick={openMenu}>
-            <a className={style.image}>
+          <Link href='/#home'>
+            <a className={style.image} onClick={openMenu}>
               <Image
                 src={StumpOffLogo}
                 alt="stumpoff company logotype"
               />
             </a>
-          </AnchorLink>
+          </Link>
           <li className={style.navitem}>
-            <AnchorLink href='#howwework'>
+            <Link href='/#howwework'>
               <a className={style.navlink} onClick={openMenu}>How we work</a>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={style.navitem}>
-            <AnchorLink href='#gallery'>
+            <Link href='/#gallery'>
               <a className={style.navlink} onClick={openMenu}>Gallery</a>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={style.navitem}>
-            <AnchorLink href='#getaquote'>
+            <Link href='/#getaquote'>
               <a className={style.navlink} onClick={openMenu}>Get a quote</a>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={style.navitem}>
-            <AnchorLink href='#feedback'>
+            <Link href='/#feedback'>
               <a className={style.navlink} onClick={openMenu}>Feedback</a>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={style.navitem}>
-            <AnchorLink href='#contact'>
+            <Link href='/#contact'>
               <a className={style.navlink} onClick={openMenu}>Contact</a>
-            </AnchorLink>
+            </Link>
           </li>
         </ul>
         <button className={isOpen === false ?

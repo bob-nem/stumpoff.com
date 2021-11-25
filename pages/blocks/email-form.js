@@ -46,6 +46,7 @@ export default function EmailForm() {
                             pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, message: 'This needs to be a valid email address' }
                         })}
                         placeholder="E-mail"
+                        style={{background: "white"}}
                     />
                     <span>{errors?.email?.message}</span>
                 </div>

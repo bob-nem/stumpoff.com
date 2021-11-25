@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import style from '../../styles/Footer.module.css'
 import EmailForm from './email-form'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Link from 'next/link'
 
 import StumpOffLogo from '../../images/icons/footerLogo.webp'
 
@@ -17,11 +17,11 @@ export default function Footer() {
                 </div>
                 <div className={style.Links}>
                     <ul>
-                        <li><AnchorLink href="#home"><a>About</a></AnchorLink></li>
-                        <li><AnchorLink href='#howwework'><a>How we work</a></AnchorLink></li>
-                        <li><AnchorLink href="#gallery"><a>Gallery</a></AnchorLink></li>
-                        <li><AnchorLink href="#getaquote"><a>Get a quote</a></AnchorLink></li>
-                        <li><AnchorLink href="#contact"><a>Contact</a></AnchorLink></li>
+                        <li><Link href="/#home"><a>About</a></Link></li>
+                        <li><Link href='/#howwework'><a>How we work</a></Link></li>
+                        <li><Link href="/#gallery"><a>Gallery</a></Link></li>
+                        <li><Link href="/#getaquote"><a>Get a quote</a></Link></li>
+                        <li><Link href="/#contact"><a>Contact</a></Link></li>
                     </ul>
                 </div>
                 <div className={style.Contacts}>

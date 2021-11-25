@@ -15,6 +15,7 @@
     "axios": "^0.24.0",
     "google-map-react": "^2.1.10",
     "googleapis": "^91.0.0",
+    "jquery": "^3.6.0",
     "next": "^12.0.1",
     "next-images": "^1.8.2",
     "nodemailer": "^6.7.0",
