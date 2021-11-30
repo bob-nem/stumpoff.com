@@ -12,8 +12,8 @@ export default function Header() {
         <div className={style.container} id="home">
             <div className={style.label}>
                 <div className={style.OurProjects} style={{ width: '7.5rem' }}>
-                    <Link href="/test">
-                        <a title="our works">
+                    <Link href="/our-projects">
+                        <a title="our projects">
                             <OurProjects />
                         </a>
                     </Link>

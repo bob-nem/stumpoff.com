@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import style from '../styles/Home.module.css'
+import Link from "next/link";
 
 import Header from './blocks/header'
 import About from './blocks/about'
@@ -23,25 +24,29 @@ export default function Home() {
           rel="preload"
           href="/fonts/LuckiestGuy-Regular.ttf"
           as="font"
-          crossOrigin=""
+          type="font/ttf"
+          crossOrigin="anonymous"
         />
         <link
           rel="preload"
           href="/fonts/Ubuntu-Light.ttf)"
           as="font"
-          crossOrigin=""
+          type="font/ttf"
+          crossOrigin="anonymous"
         />
         <link
           rel="preload"
           href="/fonts/Ubuntu-Regular.ttf)"
           as="font"
-          crossOrigin=""
+          type="font/ttf"
+          crossOrigin="anonymous"
         />
         <link
           rel="preload"
           href="/fonts/Ubuntu-Medium.ttf)"
           as="font"
-          crossOrigin=""
+          type="font/ttf"
+          crossOrigin="anonymous"
         />
       </Head>
       <main className={style.main}>

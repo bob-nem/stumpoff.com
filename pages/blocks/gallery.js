@@ -9,10 +9,7 @@ import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 import firstIMG from '../../images/our-works/1.webp'
 import tenIMG from '../../images/our-works/2.webp'
 import secondIMG from '../../images/our-works/3.webp'
-import thirdIMG from '../../images/our-works/4.webp'
 import fourthIMG from '../../images/our-works/5.webp'
-import fifthIMG from '../../images/our-works/6.webp'
-import sixthIMG from '../../images/our-works/7.webp'
 import seventhIMG from '../../images/our-works/8.webp'
 import eightIMG from '../../images/our-works/9.webp'
 import ninegthIMG from '../../images/our-works/10.webp'
@@ -103,11 +100,8 @@ export default function Gallery() {
                 ref={slider => (setSlider1(slider))}
             >
                 <div className={style.MainImg}><Image src={firstIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={thirdIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>                
                 <div className={style.MainImg}><Image src={fourthIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={fifthIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={sixthIMG} unoptimized alt="stump off before and after works"/></div>
                 <div className={style.MainImg}><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
                 <div className={style.MainImg}><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
                 <div className={style.MainImg}><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
@@ -131,10 +125,7 @@ export default function Gallery() {
                     ref={slider => (setSlider2(slider))}>
                     <div><Image src={firstIMG}  unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={thirdIMG} unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={fourthIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={fifthIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={sixthIMG} unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
                     <div><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>

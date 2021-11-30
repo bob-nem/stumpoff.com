@@ -4,7 +4,6 @@
     align-items: center;
     max-width: 75rem;
     margin: 0 auto;
-    min-height: 75vh;
 }
 
 .Header {
@@ -20,10 +19,10 @@
     display: flex;
     align-content: space-between;
     flex-flow: column wrap;
-    height: 80vh;
     grid-gap: .5rem;
     padding-top: 2rem;
     counter-reset: items;
+    height: 760px;
 }
 
 .Review {

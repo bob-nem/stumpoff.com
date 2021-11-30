@@ -37,7 +37,7 @@ export default function Contacts() {
             <div className={style.Areas}>
                 <p>
                     <strong>SERVICE AREAS</strong>
-                    <Link href="areas/holyoke"><a>Holyoke,</a></Link> Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
+                    <Link href="/areas/holyoke"><a>Holyoke,</a></Link> Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
                 </p>            
             </div>
         </>
