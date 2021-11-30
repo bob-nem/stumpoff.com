@@ -89,6 +89,24 @@
     padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 87.5rem) {
+    .Container {
+        max-width: 60rem;
+    }
+    .FirstRowRight {
+        width: 50%;
+    }
+    .SecondRow {
+        margin-top: 0;
+    }
+    .SecondRowLeft {
+        padding-top: 1em;
+    }
+    .SecondRowRight {
+        margin-top: -1rem;
+    }
+}
+
 @media only screen and (max-width: 75rem) {
     .RotateStrip {
         margin-top: -2rem;
@@ -117,6 +135,7 @@
         padding: .5rem;
     }
     .FirstRowRight {
+        width: 100%;
         margin: .75rem auto;
     }
     .SecondRow {

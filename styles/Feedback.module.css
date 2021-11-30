@@ -9,8 +9,6 @@
 .Header {
     font-size: 4.7rem;
     text-transform: uppercase;
-    -webkit-text-stroke: 3px #074578;
-    text-shadow: 3px 3px 5px #6b7883;
     text-align: center;
     padding: 4rem 0 0;
 }
@@ -103,6 +101,19 @@
     margin-top: 2rem;
 }
 
+@media only screen and (max-width: 87.5rem) {
+    .Container {
+        max-width: 60rem;
+    }
+    .ReviewList {
+        height: 900px;
+    }
+    .Badges {
+        padding: 0 10rem;
+        margin-bottom: -107px;
+    }
+}
+
 @media only screen and (max-width: 75rem) {
     .Container {
         padding-bottom: 3.6rem;
@@ -114,5 +125,28 @@
     .Review {
         width: 100%;
         margin: 0 2px;
+    }
+    .Badges {
+        margin-bottom: -150px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Badges {
+        padding: 0 5rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .Badges {
+        padding: 0 3rem;
+        margin-bottom: -22vw;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .Badges {
+        padding: 0 .5rem;
+        margin-bottom: -27vw;
     }
 }

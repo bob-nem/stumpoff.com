@@ -10,14 +10,18 @@ export default function Footer() {
         <div className={style.Wrapper}>
             <div className={style.Container}>
                 <div className={style.Logo}>
-                    <Image
-                        src={StumpOffLogo}
-                        alt="Stumpoff logotype"
-                    />
+                    <Link href="/#home">
+                        <a>
+                            <Image
+                                src={StumpOffLogo}
+                                alt="Stumpoff logotype"
+                            />
+                        </a>
+                    </Link>
                 </div>
                 <div className={style.Links}>
                     <ul>
-                        <li><Link href="/#home"><a>About</a></Link></li>
+                        <li><Link href="/#about"><a>About</a></Link></li>
                         <li><Link href='/#howwework'><a>How we work</a></Link></li>
                         <li><Link href="/#gallery"><a>Gallery</a></Link></li>
                         <li><Link href="/#getaquote"><a>Get a quote</a></Link></li>

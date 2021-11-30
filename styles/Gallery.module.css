@@ -29,6 +29,13 @@
     color: #ff9045;
 }
 
+@media only screen and (max-width: 87.5rem) {
+    .Container {
+        max-width: 50rem;
+        padding: 3rem 6.1% 6rem;
+    }
+}
+
 @media only screen and (max-width: 920px) {
     .Container {
        padding: 3rem 1.75rem 6rem;

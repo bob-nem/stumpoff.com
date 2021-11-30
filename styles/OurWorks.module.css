@@ -1,5 +1,79 @@
 .Container {
     max-width: 75rem;
     margin: 0 auto;
-    padding: 10% 0;
+}
+
+.Back {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    width: 123px;
+    border-bottom: 2px solid #944b1e;
+    border-right: 2px solid #944b1e;
+    border-bottom-right-radius: 2rem;
+    background: linear-gradient(#eba46b, #eb762f);
+}
+
+.Back span {
+    color: #074578;
+    text-align: center;
+}
+
+.ArrowIcon {
+    color: white;
+    font-size: 3.5rem;
+    
+}
+
+.Container h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2.5em;
+}
+
+.Gallery {
+    height: 1300px;
+}
+
+@media only screen and (max-width: 75rem) {
+    .Container h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 60rem) {
+    .Gallery {
+        height: 1900px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Back {
+        height: 76px;
+        width: 96px;
+    }
+    .ArrowIcon {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .Gallery {
+        height: 2500px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Back {
+        height: 70px;
+        width: 90px;
+    }
+    .ArrowIcon {
+        font-size: 2rem;
+    }
+    .Container h1 {
+        
+    }
 }

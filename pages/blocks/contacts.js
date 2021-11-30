@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import style from '../../styles/Contacts.module.css'
-import GoogleMap from './map'
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 import { GrMail } from 'react-icons/gr'
 import { BsCalendar2WeekFill } from 'react-icons/bs'
+
+const DynamicGoogleMap = dynamic(() => import('./map'))
 
 import Chainsaw from '../../images/pictures/stump-with-chainsaw.webp'
 
@@ -21,7 +23,7 @@ export default function Contacts() {
                             />
                         </div>
                         <div className={style.Right}>
-                            <Link href="/contacts"><a style={{paddingRight: 0, paddingBottom: 0}}><h2 className={style.Header}>Contact Us</h2></a></Link>
+                            <h2 className={style.Header}>Contact Us</h2>
                             <p>We try to be friends with our clients, so we are happy to answer your questions.</p>
                             <div className={style.ContactData}><FaMapMarkerAlt style={{ minWidth: "38px", color: "#ff9045", fontSize: "2.3rem", border: "2px solid #074578", borderRadius: "50%", padding: ".4rem", marginRight: ".75rem" }} /><p>39 Sinclair St, Windsor, CT 06095</p></div>
                             <div className={style.ContactData}><GrMail style={{ minWidth: "38px", color: "#ff9045", fontSize: "2.3rem", border: "2px solid #074578", borderRadius: "50%", padding: ".4rem", marginRight: ".75rem" }} /><a href="mailto:info@stumpoff.com">info@stumpoff.com (free estimate)</a></div>
@@ -30,7 +32,7 @@ export default function Contacts() {
                         </div>
                     </div>
                     <div className={style.Map}>
-                        <GoogleMap />
+                        <DynamicGoogleMap />
                     </div>
                 </div>
             </div>
@@ -38,7 +40,7 @@ export default function Contacts() {
                 <p>
                     <strong>SERVICE AREAS</strong>
                     <Link href="/areas/holyoke"><a>Holyoke,</a></Link> Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
-                </p>            
+                </p>
             </div>
         </>
     )

@@ -13,7 +13,7 @@ export default function ContactForm() {
         
         let config = {
             method: 'post',
-            url: `${API_KEY.url}/api/contact`,
+            url: `${API_KEY.url}/api/contactapi`,
             headers: {
                 'Content-Type': 'application/json',
             },

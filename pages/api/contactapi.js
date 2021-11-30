@@ -25,7 +25,6 @@ export default async (req, res) => {
   });
 
   
-
   try {
     const emailRes = await transporter.sendMail({
     from: email,

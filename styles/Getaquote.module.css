@@ -14,8 +14,6 @@
 .Header {
     font-size: 4.7rem;
     text-transform: uppercase;
-    -webkit-text-stroke: 3px #074578;
-    text-shadow: 3px 3px 5px #6b7883;
     padding: 4rem 0 3rem;
 }
 
@@ -40,6 +38,18 @@
 
 .ContactForm p {
     font-weight: 300;
+}
+
+@media only screen and (max-width: 87.5rem) {
+    .Container {
+        max-width: 60rem;
+    }
+    .ContactForm {
+        padding: 0 2rem 1rem 24rem;
+    }
+    .Photos {
+        margin-right: -21rem;
+    }
 }
 
 @media only screen and (max-width: 75rem) {

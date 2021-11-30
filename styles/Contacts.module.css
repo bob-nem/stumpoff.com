@@ -43,8 +43,6 @@
 .Header {
     font-size: 4.7rem;
     text-transform: uppercase;
-    -webkit-text-stroke: 3px #074578;
-    text-shadow: 3px 3px 5px #6b7883;
     padding: 3rem 0 2rem;
 }
 
@@ -82,6 +80,25 @@
     color: black;
 }
 
+@media only screen and (max-width: 87.5rem) {
+    .Container {
+        max-width: 60rem;
+    }
+    .Right {
+        padding: 0 1rem 0 2rem;
+    }
+    .Header {
+        font-size: 4rem;
+    }
+    .Right p {
+        font-size: 16px;
+        padding-right: 0;
+    }
+    .Right a {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 75rem) {
     .Wrapper {
         padding: 2rem .5rem;
@@ -97,7 +114,7 @@
         display: none;
     }
     .Right {
-        padding: 1rem;
+        padding: 1rem 3rem;
     }
     .Header {
         text-align: center;
@@ -126,5 +143,11 @@
     }
     .Areas p {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Right {
+        padding: 1rem;
     }
 }

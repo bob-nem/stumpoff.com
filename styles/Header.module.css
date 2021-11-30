@@ -70,6 +70,12 @@
     background: linear-gradient(#eba46b, #eb762f);
 }
 
+@media only screen and (max-width: 87.5rem) {
+    .container {
+        max-width: 60rem;
+    }
+}
+
 @media only screen and (max-width: 75rem) {
     .container {
         min-height: 48rem;

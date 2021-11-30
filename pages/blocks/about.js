@@ -8,7 +8,7 @@ import Grinder from '../../images/pictures/grinder.webp'
 export default function About() {
     return (
         <div className={style.Wrapper}>
-            <div className={style.Container}>
+            <div className={style.Container} id="about">
                 <div className={style.Left}>
                     <h2>ABOUT US</h2>
                     <p>We are professionals who are ready to quickly and completely remove tree stumps. Our team uses professional stump grinding equipment to efficiently remove and grind your tree stump. We guarantee careful and safely professional job.</p>

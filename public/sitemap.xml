@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stumpoff.com/contacts</loc>
-  </url>
-
-  <url>
     <loc>https://stumpoff.com</loc>
   </url>
 
   <url>
-    <loc>https://stumpoff.com/our-works</loc>
+    <loc>https://stumpoff.com/our-projects</loc>
   </url>
 </urlset>

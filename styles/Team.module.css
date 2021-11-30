@@ -77,6 +77,25 @@
     margin-left: 2em;
 }
 
+@media only screen and (max-width: 87.5rem) {
+    .Container {
+        max-width: 60rem;
+    }
+    .Header {
+        -webkit-text-stroke: 1px #074578;
+    }
+
+    .SecondRow {
+        margin-top: 0; 
+    }
+    .SecondRowLeft {
+        margin-top: 1em;
+    }
+    .SecondRowRight {
+        margin-top: -2rem;
+    }
+}
+
 @media only screen and (max-width: 75rem) {
     .Wrapper {
         padding-bottom: 2rem;

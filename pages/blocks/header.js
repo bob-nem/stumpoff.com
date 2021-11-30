@@ -28,10 +28,10 @@ export default function Header() {
                     <Phone />
                     <a href="tel:+18606907268"><p style={{ fontSize: "1.5rem", fontWeight: "500", paddingLeft: "1rem" }}><span>(860) 690 72 68</span></p></a>
                 </div>
-                <div className={style.OurProjectsMobile} style={{ width: '7.5rem' }}>
-                    <Link href="/test">
-                        <a title="our works">
-                            <OurProjects />
+                <div className={style.OurProjectsMobile}>
+                    <Link href="/our-projects">
+                        <a title="our projects">
+                            <OurProjects style={{height: "42px"}} />
                         </a>
                     </Link>
                 </div>

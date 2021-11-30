@@ -1,11 +1,9 @@
-import Image from 'next/image';
+import Link from 'next/link';
 import style from '../styles/OurWorks.module.css';
 import Gallery from 'react-grid-gallery';
+import Footer from './blocks/footer'
 
-
-import firstIMG from '../images/our-works/1.webp'
-import secondIMG from '../images/our-works/2.webp'
-import thirdIMG from '../images/our-works/3.webp'
+import { BsArrowLeftSquare } from 'react-icons/bs'
 
 export default function Test() {
     const IMAGES =
@@ -107,12 +105,26 @@ export default function Test() {
             thumbnailWidth: 300,
             thumbnailHeight: 300
         },
-    
-    ]
+
+        ]
     return (
-        <div className={style.Container}>
-            <h3 style={{ textAlign: "center", fontSize: "4rem" }}>Our Works</h3>
-            <Gallery images={IMAGES} rowHeight={300} onSelectImage={false} backdropClosesModal={true} />
-        </div>
+        <>
+                <Link href='/#home'>
+                    <a>
+                        <div className={style.Back}>
+                            <BsArrowLeftSquare className={style.ArrowIcon} />
+                            
+                        </div>
+                    </a>
+                </Link>
+            <div className={style.Container}>
+
+                <h1>Our Projects</h1>
+                <div className={style.Gallery}>
+                    <Gallery images={IMAGES} rowHeight={300} onSelectImage={false} backdropClosesModal={true} />
+                </div>
+            </div>
+            <Footer style={{ position: "absolute", bottom: 0, width: "100%" }} />
+        </>
     )
 }
