@@ -100,23 +100,23 @@ export default function Gallery() {
                 ref={slider => (setSlider1(slider))}
             >
                 <div className={style.MainImg}><Image src={firstIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>                
-                <div className={style.MainImg}><Image src={fourthIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={tenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={elevenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={twenteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={thurteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={fourteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={fifteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={sixteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={seventeenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={eightteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={nineteenIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={twentyIMG} unoptimized alt="stump off before and after works"/></div>
-                <div className={style.MainImg}><Image src={twentyoneIMG} unoptimized alt="stump off before and after works"/></div>
+                <div className={style.MainImg}><Image src={secondIMG} unoptimized alt="Stump Grinding in Holyoke"/></div>
+                <div className={style.MainImg}><Image src={fourthIMG} unoptimized alt="Stump Grinding in Connecticut"/></div>
+                <div className={style.MainImg}><Image src={seventhIMG} unoptimized alt="Stump removal in CT"/></div>
+                <div className={style.MainImg}><Image src={eightIMG} unoptimized alt="Stump Grinding in West Springfield"/></div>
+                <div className={style.MainImg}><Image src={ninegthIMG} unoptimized alt="Stump removal in West Springfield"/></div>
+                <div className={style.MainImg}><Image src={tenIMG} unoptimized alt="Stump removal in West Agawam"/></div>
+                <div className={style.MainImg}><Image src={elevenIMG} unoptimized alt="Stump removal in Longmeadow"/></div>
+                <div className={style.MainImg}><Image src={twenteenIMG} unoptimized alt="Stump grinding near me"/></div>
+                <div className={style.MainImg}><Image src={thurteenIMG} unoptimized alt="Stump grinding in Suffield"/></div>
+                <div className={style.MainImg}><Image src={fourteenIMG} unoptimized alt="Tree stump grinding in my property"/></div>
+                <div className={style.MainImg}><Image src={fifteenIMG} unoptimized alt="Stump grinding in Enfield"/></div>
+                <div className={style.MainImg}><Image src={sixteenIMG} unoptimized alt="Stump grinding in Windsor Locks"/></div>
+                <div className={style.MainImg}><Image src={seventeenIMG} unoptimized alt="Stump removal in Windsor"/></div>
+                <div className={style.MainImg}><Image src={eightteenIMG} unoptimized alt="Stump removal in East Windsor"/></div>
+                <div className={style.MainImg}><Image src={nineteenIMG} unoptimized alt="Stump removal in Broad Brook" /></div>
+                <div className={style.MainImg}><Image src={twentyIMG} unoptimized alt="Stump grinding in South Winsor"/></div>
+                <div className={style.MainImg}><Image src={twentyoneIMG} unoptimized alt="Connecticut stump works"/></div>
             </Slider>
             <div className="thumbnail-slider-wrap">
                 <Slider
@@ -124,23 +124,23 @@ export default function Gallery() {
                     asNavFor={nav1}
                     ref={slider => (setSlider2(slider))}>
                     <div><Image src={firstIMG}  unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={secondIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={fourthIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={seventhIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={eightIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={ninegthIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={tenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={elevenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={twenteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={thurteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={fourteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={fifteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={sixteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={seventeenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={eightteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={nineteenIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={twentyIMG} unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={twentyoneIMG} unoptimized alt="stump off before and after works"/></div>
+                    <div><Image src={secondIMG} unoptimized alt="Stump Grinding in Holyoke"/></div>
+                    <div><Image src={fourthIMG} unoptimized alt="Stump Grinding in Connecticut"/></div>
+                    <div><Image src={seventhIMG} unoptimized alt="Stump removal in CT"/></div>
+                    <div><Image src={eightIMG} unoptimized alt="Stump Grinding in West Springfield"/></div>
+                    <div><Image src={ninegthIMG} unoptimized alt="Stump removal in West Springfield"/></div>
+                    <div><Image src={tenIMG} unoptimized alt="Stump removal in West Agawam"/></div>
+                    <div><Image src={elevenIMG} unoptimized alt="Stump removal in Longmeadow"/></div>
+                    <div><Image src={twenteenIMG} unoptimized alt="Stump grinding near me"/></div>
+                    <div><Image src={thurteenIMG} unoptimized alt="Stump grinding in Suffield"/></div>
+                    <div><Image src={fourteenIMG} unoptimized alt="Tree stump grinding in my property"/></div>
+                    <div><Image src={fifteenIMG} unoptimized alt="Stump grinding in Enfield"/></div>
+                    <div><Image src={sixteenIMG} unoptimized alt="Stump grinding in Windsor Locks"/></div>
+                    <div><Image src={seventeenIMG} unoptimized alt="Stump removal in Windsor"/></div>
+                    <div><Image src={eightteenIMG} unoptimized alt="Stump removal in East Windsor"/></div>
+                    <div><Image src={nineteenIMG} unoptimized alt="Stump removal in Broad Brook" /></div>
+                    <div><Image src={twentyIMG} unoptimized alt="Stump grinding in South Winsor"/></div>
+                    <div><Image src={twentyoneIMG} unoptimized alt="Connecticut stump works"/></div>
                 </Slider>
             </div>
         </div>

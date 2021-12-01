@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import style from '../../styles/Header.module.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Head from 'next/head'
 
 import StumpOffLogo from '../../images/icons/stumpOffLogoMin.webp'
 import OurProjects from '../../images/icons/OurProjects'
@@ -19,6 +20,11 @@ import Footer from '../blocks/footer'
 export default function Holyoke() {
     return (
         <div style={{maxWidth: "120rem", overflow: "hidden", margin: "0 auto"}}>
+            <Head>
+                <title>Tree Stump Grinding in Chicopee</title>
+                <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps" />
+                <link rel="canonical" href="https://stumpoff.com" key="canonical" />
+            </Head>
             <div className={style.container} id="home">
                 <div className={style.label}>
                     <div className={style.OurProjects} style={{ width: '7.5rem' }}>
