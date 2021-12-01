@@ -20,7 +20,7 @@
     grid-gap: .5rem;
     padding-top: 2rem;
     counter-reset: items;
-    height: 760px;
+    height: 1000px;
 }
 
 .Review {
@@ -106,7 +106,7 @@
         max-width: 60rem;
     }
     .ReviewList {
-        height: 900px;
+        height: 1100px;
     }
     .Badges {
         padding: 0 10rem;

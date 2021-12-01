@@ -76,12 +76,6 @@ export default function Test() {
             thumbnailHeight: 300
         },
         {
-            src: "https://stumpoff.com/images/34.webp",
-            thumbnail: "https://stumpoff.com/images/34.webp",
-            thumbnailWidth: 300,
-            thumbnailHeight: 300
-        },
-        {
             src: "https://stumpoff.com/images/35.webp",
             thumbnail: "https://stumpoff.com/images/35.webp",
             thumbnailWidth: 300,

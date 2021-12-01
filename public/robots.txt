@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://stumpoff.com/sitemap.xml

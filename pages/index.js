@@ -15,40 +15,6 @@ import Footer from './blocks/footer'
 export default function Home() {
   return (
     <div className={style.container}>
-      <Head>
-        <title>Tree Stump Grinding</title>
-        <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="msvalidate.01" content="B8ACE33552C4541B4DEC70E874CE71D1" />
-        <link
-          rel="preload"
-          href="/fonts/LuckiestGuy-Regular.ttf"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Ubuntu-Light.ttf)"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Ubuntu-Regular.ttf)"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Ubuntu-Medium.ttf)"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
-        />
-      </Head>
       <main className={style.main}>
         <Header />
         <About />

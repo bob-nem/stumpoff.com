@@ -6,7 +6,7 @@ import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 import { GrMail } from 'react-icons/gr'
 import { BsCalendar2WeekFill } from 'react-icons/bs'
 
-const DynamicGoogleMap = dynamic(() => import('./map'))
+const DynamicGoogleMap = dynamic(() => import('../blocks/map'))
 
 import Chainsaw from '../../images/pictures/stump-with-chainsaw.webp'
 
@@ -39,7 +39,7 @@ export default function Contacts() {
             <div className={style.Areas}>
                 <p>
                     <strong>SERVICE AREAS</strong>
-                    <Link href="/areas/holyoke"><a>Holyoke,</a></Link> <Link href="/areas/chicopee"><a>Chicopee,</a></Link> West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
+                    Holyoke, Chicopee, West Springfield, Springfield, Agawam, Longmeadow, Suffield, Enfield, Windsor Locks, Windsor, East Windsor, Broad Brook, South Winsor, Ellington, Somers, Vernon, Rockville, Manchester, Addison, Glastonbury, Rocky Hill, Wethersfield, Newington, Hartford, West Hartford, East Hartford, Farmington, New Britain, Bloomfield, East Granby.
                 </p>
             </div>
         </>

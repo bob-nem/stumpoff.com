@@ -45,7 +45,7 @@
 }
 
 .RowButtonChoose label {
-  display: flex;
+  display: none;
   width: 12rem;
   height: 3rem;
   border-radius: .5rem;

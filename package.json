@@ -30,7 +30,9 @@
     "react-icons": "^4.3.1",
     "react-image-gallery": "^1.2.7",
     "react-responsive-carousel": "^3.2.22",
+    "react-schemaorg": "^2.0.0",
     "react-slick": "^0.28.1",
+    "schema-dts": "^1.0.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^7.3.0",
     "webpack": "^5.64.2"

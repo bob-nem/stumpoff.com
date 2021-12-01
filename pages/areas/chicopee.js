@@ -46,7 +46,7 @@ export default function Holyoke() {
                         </Link>
                     </div>
                 </div>
-                <h1 className={style.Header}>TREE STUMP<br /> GRINDING IN HOLYOKE</h1>
+                <h1 className={style.Header}>TREE STUMP<br /> GRINDING IN CHICOPEE</h1>
                 <p className={style.HeaderDescription}><strong>We are professionals who are ready to<br /> quickly and completely remove tree stumps</strong></p>
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
                     <AnchorLink href='#contact'>
