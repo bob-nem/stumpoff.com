@@ -22,7 +22,7 @@ export default function Holyoke() {
         <div style={{maxWidth: "120rem", overflow: "hidden", margin: "0 auto"}}>
             <Head>
                 <title>Tree Stump Grinding in Chicopee</title>
-                <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps" />
+                <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps in Chicopee" />
                 <link rel="canonical" href="https://stumpoff.com" key="canonical" />
             </Head>
             <div className={style.container} id="home">

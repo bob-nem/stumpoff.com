@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Head from 'next/head'
 import style from '../styles/OurWorks.module.css';
 import Gallery from 'react-grid-gallery';
 import Footer from './blocks/footer'
@@ -114,14 +115,19 @@ export default function Test() {
         },]
     return (
         <>
-                <Link href='/#home'>
-                    <a>
-                        <div className={style.Back}>
-                            <BsArrowLeftSquare className={style.ArrowIcon} />
-                            
-                        </div>
-                    </a>
-                </Link>
+            <Head>
+                <title>Tree Stump Grinding picture gallery</title>
+                <meta name="description" content="Our finished stump removal works" />
+                <link rel="canonical" href="https://stumpoff.com/our-projects" key="canonical" />
+            </Head>
+            <Link href='/#home'>
+                <a>
+                    <div className={style.Back}>
+                        <BsArrowLeftSquare className={style.ArrowIcon} />
+
+                    </div>
+                </a>
+            </Link>
             <div className={style.Container}>
 
                 <h1>Our Projects</h1>

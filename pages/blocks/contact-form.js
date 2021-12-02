@@ -77,10 +77,10 @@ export default function ContactForm() {
                         {...register("message", {
                             required: { value: false, message: "You need to enter your message" },
                             maxLength: { value: 1618, message: "Your message can't be more than 1618 characters" },
-                            minLength: { value: 16, message: "Your message must be longer than this" }
+                            minLength: { value: 4, message: "Your message must be longer than this" }
                         })}
                         placeholder="Message"></textarea>
-                    <span>{errors?.Message?.message}</span>
+                    <span>{errors?.message?.message}</span>
                 </div>
                 <div className={style.RowButtonChoose}>
                     <label htmlFor="picture">Select a file</label>

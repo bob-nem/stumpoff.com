@@ -19,10 +19,10 @@ import Footer from '../blocks/footer'
 
 export default function Holyoke() {
     return (
-        <div style={{ maxWidth: "120rem", overflow: "hidden", margin: "0 auto" }}>
+        <div style={{maxWidth: "120rem", overflow: "hidden", margin: "0 auto"}}>
             <Head>
-                <title>Tree Stump Grinding in Holyoke</title>
-                <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps in Holyoke" />
+                <title>Tree Stump Grinding in West Springfield</title>
+                <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps in West Springfield" />
                 <link rel="canonical" href="https://stumpoff.com" key="canonical" />
             </Head>
             <div className={style.container} id="home">
@@ -52,7 +52,7 @@ export default function Holyoke() {
                         </Link>
                     </div>
                 </div>
-                <h1 className={style.Header}>TREE STUMP<br /> GRINDING IN HOLYOKE</h1>
+                <h1 className={style.Header}>TREE STUMP<br /> GRINDING IN<br /> WEST SPRINGFIELD</h1>
                 <p className={style.HeaderDescription}><strong>We are professionals who are ready to<br /> quickly and completely remove tree stumps</strong></p>
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
                     <AnchorLink href='#contact'>
