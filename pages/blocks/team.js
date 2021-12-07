@@ -14,11 +14,11 @@ export default function Team () {
                     <div className={style.FirstRow}>
                         <div className={style.FirstRowLeft}>
                             <ol>
-                                <li>Old tree stumps can ruin your landscape look.</li>
-                                <li>Stumps can become the perfect home for termites, ants, rodents and even wasps.</li>
-                                <li>Having a stump at your yard can make mowing much harder to perform.</li>
-                                <li>Instead of occupying property&apos;s space with an ugly and rotten stump you could plant some flowers, bushes or have a nice lawn. </li>
-                                <li>Tree roots can become a hidden danger for your house. They damage the underground structure of your residence.</li>
+                                <li>We do not do all kinds of tree service; we exclusively perform stump removal. It is the only work we do. This is why we are the best at it. We focus on being productive instead of busy!</li>
+                                <li>Our customer service has a very flexible schedule which makes us available from the early morning till late in the night all week long. We will ALWAYS find time for you.</li>
+                                <li>Free estimate.</li>
+                                <li>We perform our work in CT and MA areas.</li>
+                                <li>We will keep your lawn nice and clean after the stump grinding.</li>
                             </ol>
                         </div>
                         <div className={style.FirstRowRight}>
@@ -37,11 +37,11 @@ export default function Team () {
                         </div>
                         <div className={style.SecondRowRight}>
                             <ol start="6">
-                                <li>The tree roots which are above the ground can become a tripping hazard and an obstacle to move around them.</li>
-                                <li>Stump can occupy your future parking space and it is also an obstacle at your driveway.</li>
-                                <li>Having an old tree stump next to the playground can pose a real danger to your kids of problem.</li>
-                                <li>Stump can get in the way of putting up a new fence.</li>
-                                <li>Stumps may be the reasons for new trees to grow.</li>
+                                <li>It is our rule to have our workplace cleaned up after we are done. It does not affect the price of our service.</li>
+                                <li>We can paper bag the wood chips or we can also take the bags for disposal.</li>
+                                <li>We only use new and professional equipment to get rid of stumps in hard-to-reach places without raising price for this.</li>
+                                <li>We are licensed and insured.</li>
+                                <li>We accept all kinds of payment: cash, cards, checks.</li>
                             </ol>
                         </div>
                         <div className={style.SecondRowLeftMobile}>

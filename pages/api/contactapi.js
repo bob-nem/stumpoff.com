@@ -23,12 +23,11 @@ export default async (req, res) => {
       accessToken: accessToken
     },
   });
-
   
   try {
     const emailRes = await transporter.sendMail({
     from: email,
-    to: '79278500916@ya.ru',
+    to: 'info@stumpoff.com',
     subject: `Contact form submission from ${name}`,
     html: `<p>You have a new contact form submission</p><br>
     <p><strong>Name: </strong> ${name} </p><br>

@@ -116,7 +116,7 @@ export default function Test() {
     return (
         <>
             <Head>
-                <title>Tree Stump Grinding picture gallery</title>
+                <title>Tree Stump Grinding - Picture Gallery</title>
                 <meta name="description" content="Our finished stump removal works" />
                 <link rel="canonical" href="https://stumpoff.com/our-projects" key="canonical" />
             </Head>

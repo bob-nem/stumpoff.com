@@ -84,8 +84,8 @@ export default function Feedback() {
                         <div><Image src={Gicon} alt="google icon" /></div>
                     </div>
                     <div className={style.ReviewText}>
-                        <h3><b>Courtney Canfijin</b></h3>
-                        <p>Great job and super affordable. Nick gave us a more than fair price and did a great job grinding out the stump of a maple we had taken down last year. He even leveled out the space around the stump. I wish I could post a pic of the before, but trust me when I say this pic is 100% better than what our lawn looked like with the stump.</p>
+                        <h3><b>M H</b></h3>
+                        <p>I got their number from a co worker of mine and I’m extremely happy I called. Nick came out very quickly and gave me a quote. A few days later my stumps were gone. Very professional and amazing quality of work. I will tell everyone I meet that needs their stumps removed about how happy I am with the work that was completed. If I could of given 10 stars I would. Thank you again for the job well done.</p>
                     </div>
                     <a href="https://www.google.com/maps/place/Stump+%22OFF%22+LLC+Stump+Grinding/@41.8279182,-72.6481287,17z/data=!4m8!3m7!1s0x89e6fb105e09b393:0x62367685dc4cedd0!8m2!3d41.8279182!4d-72.6459347!9m1!1b1!16s%2Fg%2F11j7z45pz4?hl=en-RU" target="_blank" rel="noreferrer">Read more</a>
                 </div>
