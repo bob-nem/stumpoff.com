@@ -2,3 +2,20 @@ colors:
 #074578; - blue
 #ff9045; - orange
 #d2e7f9; - light blue
+
+type: 'OAuth2',
+      user: API_KEY.user,
+      clientId: API_KEY.clientId,
+      clientSecret: API_KEY.clientSecret,
+      refreshToken: API_KEY.refreshToken,
+      accessToken: accessToken
+
+const REDIRECT_URI = 'https://developers.google.com/oauthplayground'
+  const oAuth2Client = new google.auth.OAuth2(API_KEY.clientId, API_KEY.clientSecret, REDIRECT_URI)
+  oAuth2Client.setCredentials({refresh_token: API_KEY.refreshToken})
+  const accessToken = await oAuth2Client.getAccessToken()
+
+  envelope: {
+        from: 'Daemon <info@it.for-all.world>', // used as MAIL FROM: address for SMTP
+        to: '79278500916@ya.ru, Mailer <79278500916@ya.ru>' // used as RCPT TO: address for SMTP
+    },

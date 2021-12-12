@@ -9,109 +9,137 @@ import { BsArrowLeftSquare } from 'react-icons/bs'
 export default function Test() {
     const IMAGES =
         [{
-            src: "https://stumpoff.com/images/23.webp",
-            thumbnail: "https://stumpoff.com/images/23.webp",
+            src: "https://stumpoff.com/images/gallery/1.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/1.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump Grinding in Holyoke"
         },
         {
-            src: "https://stumpoff.com/images/24.webp",
-            thumbnail: "https://stumpoff.com/images/24.webp",
+            src: "https://stumpoff.com/images/gallery/2.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/2.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump Grinding in Chicopee"
         },
         {
-            src: "https://stumpoff.com/images/25.webp",
-            thumbnail: "https://stumpoff.com/images/25.webp",
+            src: "https://stumpoff.com/images/gallery/3.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/3.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump Grinding in West Springfield"
         },
         {
-            src: "https://stumpoff.com/images/26.webp",
-            thumbnail: "https://stumpoff.com/images/26.webp",
+            src: "https://stumpoff.com/images/gallery/4.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/4.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump removal in West Springfield"
         },
         {
-            src: "https://stumpoff.com/images/27.webp",
-            thumbnail: "https://stumpoff.com/images/27.webp",
+            src: "https://stumpoff.com/images/gallery/5.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/5.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump removal in West Agawam"
         },
         {
-            src: "https://stumpoff.com/images/28.webp",
-            thumbnail: "https://stumpoff.com/images/28.webp",
+            src: "https://stumpoff.com/images/gallery/6.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/6.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump removal in Longmeadow"
         },
         {
-            src: "https://stumpoff.com/images/29.webp",
-            thumbnail: "https://stumpoff.com/images/29.webp",
+            src: "https://stumpoff.com/images/gallery/7.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/7.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump grinding near me"
         },
         {
-            src: "https://stumpoff.com/images/30.webp",
-            thumbnail: "https://stumpoff.com/images/30.webp",
+            src: "https://stumpoff.com/images/gallery/8.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/8.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump grinding in Suffield"
         },
         {
-            src: "https://stumpoff.com/images/31.webp",
-            thumbnail: "https://stumpoff.com/images/31.webp",
+            src: "https://stumpoff.com/images/gallery/9.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/9.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Tree stump grinding in my property"
         },
         {
-            src: "https://stumpoff.com/images/32.webp",
-            thumbnail: "https://stumpoff.com/images/32.webp",
+            src: "https://stumpoff.com/images/gallery/10.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/10.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump grinding in Enfield"
         },
         {
-            src: "https://stumpoff.com/images/33.webp",
-            thumbnail: "https://stumpoff.com/images/33.webp",
+            src: "https://stumpoff.com/images/gallery/11.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/11.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump grinding in Windsor Locks"
         },
         {
-            src: "https://stumpoff.com/images/35.webp",
-            thumbnail: "https://stumpoff.com/images/35.webp",
+            src: "https://stumpoff.com/images/gallery/12.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/12.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump removal in Windsor"
         },
         {
-            src: "https://stumpoff.com/images/36.webp",
-            thumbnail: "https://stumpoff.com/images/36.webp",
+            src: "https://stumpoff.com/images/gallery/13.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/13.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump removal in East Windsor"
         },
         {
-            src: "https://stumpoff.com/images/37.webp",
-            thumbnail: "https://stumpoff.com/images/37.webp",
+            src: "https://stumpoff.com/images/gallery/14.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/14.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump removal in Broad Brook"
         },
         {
-            src: "https://stumpoff.com/images/38.webp",
-            thumbnail: "https://stumpoff.com/images/38.webp",
+            src: "https://stumpoff.com/images/gallery/15.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/15.webp",
             thumbnailWidth: 300,
             thumbnailHeight: 300,
             alt: "Stump grinding in South Winsor"
+        },
+        {
+            src: "https://stumpoff.com/images/gallery/16.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/16.webp",
+            thumbnailWidth: 300,
+            thumbnailHeight: 300,
+            alt: "Stump removal in near me"
+        },
+        {
+            src: "https://stumpoff.com/images/gallery/17.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/17.webp",
+            thumbnailWidth: 300,
+            thumbnailHeight: 300,
+            alt: "Stump removal in Winsor"
+        },
+        {
+            src: "https://stumpoff.com/images/gallery/18.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/18.webp",
+            thumbnailWidth: 300,
+            thumbnailHeight: 300,
+            alt: "Stump removal in Connecticut"
+        },
+        {
+            src: "https://stumpoff.com/images/gallery/19.webp",
+            thumbnail: "https://stumpoff.com/images/gallery/19.webp",
+            thumbnailWidth: 300,
+            thumbnailHeight: 300,
+            alt: "Stump removal in East Granby."
         },]
     return (
         <>

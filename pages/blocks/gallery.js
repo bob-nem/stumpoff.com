@@ -6,24 +6,21 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs'
 
-import firstIMG from '../../images/our-works/1.webp'
-import tenIMG from '../../images/our-works/2.webp'
-import secondIMG from '../../images/our-works/3.webp'
-import fourthIMG from '../../images/our-works/5.webp'
-import seventhIMG from '../../images/our-works/8.webp'
-import eightIMG from '../../images/our-works/9.webp'
-import ninegthIMG from '../../images/our-works/10.webp'
-import elevenIMG from '../../images/our-works/11.webp'
-import twenteenIMG from '../../images/our-works/12.webp'
-import thurteenIMG from '../../images/our-works/13.webp'
-import fourteenIMG from '../../images/our-works/14.webp'
-import fifteenIMG from '../../images/our-works/15.webp'
-import sixteenIMG from '../../images/our-works/16.webp'
-import seventeenIMG from '../../images/our-works/22.webp'
-import eightteenIMG from '../../images/our-works/18.webp'
-import nineteenIMG from '../../images/our-works/19.webp'
-import twentyIMG from '../../images/our-works/20.webp'
-import twentyoneIMG from '../../images/our-works/21.webp'
+import firstIMG from '../../images/carousel/1.webp'
+import secondIMG from '../../images/carousel/2.webp'
+import thirdIMG from '../../images/carousel/3.webp'
+import fourthIMG from '../../images/carousel/4.webp'
+import fifthIMG from '../../images/carousel/5.webp'
+import seventhIMG from '../../images/carousel/7.webp'
+import eightIMG from '../../images/carousel/8.webp'
+import ninegthIMG from '../../images/carousel/9.webp'
+import tenIMG from '../../images/carousel/10.webp'
+import elevenIMG from '../../images/carousel/11.webp'
+import twenteenIMG from '../../images/carousel/12.webp'
+import thurteenIMG from '../../images/carousel/13.webp'
+import fourteenIMG from '../../images/carousel/14.webp'
+import fifteenIMG from '../../images/carousel/15.webp'
+import sixteenIMG from '../../images/carousel/16.webp'
 
 export default function Gallery() {
     const [nav1, setNav1] = useState(null);
@@ -112,11 +109,8 @@ export default function Gallery() {
                 <div className={style.MainImg}><Image src={fourteenIMG} unoptimized alt="Tree stump grinding in my property"/></div>
                 <div className={style.MainImg}><Image src={fifteenIMG} unoptimized alt="Stump grinding in Enfield"/></div>
                 <div className={style.MainImg}><Image src={sixteenIMG} unoptimized alt="Stump grinding in Windsor Locks"/></div>
-                <div className={style.MainImg}><Image src={seventeenIMG} unoptimized alt="Stump removal in Windsor"/></div>
-                <div className={style.MainImg}><Image src={eightteenIMG} unoptimized alt="Stump removal in East Windsor"/></div>
-                <div className={style.MainImg}><Image src={nineteenIMG} unoptimized alt="Stump removal in Broad Brook" /></div>
-                <div className={style.MainImg}><Image src={twentyIMG} unoptimized alt="Stump grinding in South Winsor"/></div>
-                <div className={style.MainImg}><Image src={twentyoneIMG} unoptimized alt="Connecticut stump works"/></div>
+                <div className={style.MainImg}><Image src={thirdIMG} unoptimized alt="Stump removal in Windsor"/></div>
+                <div className={style.MainImg}><Image src={fifthIMG} unoptimized alt="Stump removal in East Windsor"/></div>
             </Slider>
             <div className="thumbnail-slider-wrap">
                 <Slider
@@ -136,11 +130,8 @@ export default function Gallery() {
                     <div><Image src={fourteenIMG} unoptimized alt="Tree stump grinding in my property"/></div>
                     <div><Image src={fifteenIMG} unoptimized alt="Stump grinding in Enfield"/></div>
                     <div><Image src={sixteenIMG} unoptimized alt="Stump grinding in Windsor Locks"/></div>
-                    <div><Image src={seventeenIMG} unoptimized alt="Stump removal in Windsor"/></div>
-                    <div><Image src={eightteenIMG} unoptimized alt="Stump removal in East Windsor"/></div>
-                    <div><Image src={nineteenIMG} unoptimized alt="Stump removal in Broad Brook" /></div>
-                    <div><Image src={twentyIMG} unoptimized alt="Stump grinding in South Winsor"/></div>
-                    <div><Image src={twentyoneIMG} unoptimized alt="Connecticut stump works"/></div>
+                    <div><Image src={thirdIMG} unoptimized alt="Stump removal in Windsor"/></div>
+                    <div><Image src={fifthIMG} unoptimized alt="Stump removal in East Windsor"/></div>
                 </Slider>
             </div>
         </div>
