@@ -83,13 +83,13 @@ export default function Gallery() {
         focusOnSelect: true,
         centerPadding: '5px',
         arrows: false,
-        margin: '4px',
+        margin: '4px'
     };
 
     return (
         <div className={style.Container} id="gallery">
-            <h2 className={style.Header}>Gallery</h2>
-            <p className={style.Description}>here you can see before and after results of our work</p>
+            <h2 className={style.Header}>Portfolio</h2>
+            <p className={style.Description}>Stump Grinding Near me before and after</p>
             <Slider
                 {...settingsMain}
                 asNavFor={nav2}
@@ -115,20 +115,20 @@ export default function Gallery() {
                     {...settingsThumbs}
                     asNavFor={nav1}
                     ref={slider => (setSlider2(slider))}>
-                    <div><Image src={firstIMG}  unoptimized alt="stump off before and after works"/></div>
-                    <div><Image src={secondIMG} unoptimized alt="Stump Grinding in Holyoke"/></div>
-                    <div><Image src={seventhIMG} unoptimized alt="Stump removal in CT"/></div>
-                    <div><Image src={eightIMG} unoptimized alt="Stump Grinding in West Springfield"/></div>
-                    <div><Image src={ninegthIMG} unoptimized alt="Stump removal in West Springfield"/></div>
-                    <div><Image src={tenIMG} unoptimized alt="Stump removal in West Agawam"/></div>
-                    <div><Image src={elevenIMG} unoptimized alt="Stump removal in Longmeadow"/></div>
-                    <div><Image src={twenteenIMG} unoptimized alt="Stump grinding near me"/></div>
-                    <div><Image src={thurteenIMG} unoptimized alt="Stump grinding in Suffield"/></div>
-                    <div><Image src={fourteenIMG} unoptimized alt="Tree stump grinding in my property"/></div>
-                    <div><Image src={fifteenIMG} unoptimized alt="Stump grinding in Enfield"/></div>
-                    <div><Image src={sixteenIMG} unoptimized alt="Stump grinding in Windsor Locks"/></div>
-                    <div><Image src={thirdIMG} unoptimized alt="Stump removal in Windsor"/></div>
-                    <div><Image src={fifthIMG} unoptimized alt="Stump removal in East Windsor"/></div>
+                    <div className={style.Thumb}><Image src={firstIMG}  unoptimized alt="stump off before and after works"/></div>
+                    <div className={style.Thumb}><Image src={secondIMG} unoptimized alt="Stump Grinding in Holyoke"/></div>
+                    <div className={style.Thumb}><Image src={seventhIMG} unoptimized alt="Stump removal in CT"/></div>
+                    <div className={style.Thumb}><Image src={eightIMG} unoptimized alt="Stump Grinding in West Springfield"/></div>
+                    <div className={style.Thumb}><Image src={ninegthIMG} unoptimized alt="Stump removal in West Springfield"/></div>
+                    <div className={style.Thumb}><Image src={tenIMG} unoptimized alt="Stump removal in West Agawam"/></div>
+                    <div className={style.Thumb}><Image src={elevenIMG} unoptimized alt="Stump removal in Longmeadow"/></div>
+                    <div className={style.Thumb}><Image src={twenteenIMG} unoptimized alt="Stump grinding near me"/></div>
+                    <div className={style.Thumb}><Image src={thurteenIMG} unoptimized alt="Stump grinding in Suffield"/></div>
+                    <div className={style.Thumb}><Image src={fourteenIMG} unoptimized alt="Tree stump grinding in my property"/></div>
+                    <div className={style.Thumb}><Image src={fifteenIMG} unoptimized alt="Stump grinding in Enfield"/></div>
+                    <div className={style.Thumb}><Image src={sixteenIMG} unoptimized alt="Stump grinding in Windsor Locks"/></div>
+                    <div className={style.Thumb}><Image src={thirdIMG} unoptimized alt="Stump removal in Windsor"/></div>
+                    <div className={style.Thumb}><Image src={fifthIMG} unoptimized alt="Stump removal in East Windsor"/></div>
                 </Slider>
             </div>
         </div>

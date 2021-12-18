@@ -161,17 +161,16 @@ button:focus {
   content: "" !important;
 }
 
-.slick-slide {
-  padding: 0 6px;
-}
 
 @media only screen and (max-width: 87.5rem) {
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Luckiest Guy', Arial, sans-serif;
-    color: white;
     -webkit-text-stroke: 2px #074578;
     text-shadow: 3px 3px 5px #6b7883;
-    margin-block-start: 0;
-    margin-block-end: 0;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
   }
 }

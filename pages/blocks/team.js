@@ -1,29 +1,30 @@
 import Image from 'next/image'
-import style from '../../styles/Team.module.css'
+import style from '../../styles/Reasons.module.css'
 
-import Work03 from '../../images/pictures/work03.webp'
-import Work04 from '../../images/pictures/work04.webp'
+import Work01 from '../../images/pictures/work01.webp'
+import Work02 from '../../images/pictures/work02.webp'
 
-export default function Team () {
+export default function Team() {
     return (
         <>
             <div className={style.RotateStrip}></div>
             <div className={style.Wrapper}>
                 <div className={style.Container}>
-                    <h2 className={style.Header}>why you should only hire our team.</h2>
+                    <h2 className={style.Header}>TOP10 REASONS</h2>
+                    <p className={style.HeaderDescription}>why you should remove the stumps at your property.</p>
                     <div className={style.FirstRow}>
                         <div className={style.FirstRowLeft}>
                             <ol>
-                                <li>We do not do all kinds of tree service; we exclusively perform stump removal. It is the only work we do. This is why we are the best at it. We focus on being productive instead of busy!</li>
-                                <li>Our customer service has a very flexible schedule which makes us available from the early morning till late in the night all week long. We will ALWAYS find time for you.</li>
-                                <li>Free estimate.</li>
-                                <li>We perform our work in CT and MA areas.</li>
-                                <li>We will keep your lawn nice and clean after the stump grinding.</li>
+                                <li>Old tree stumps can ruin your landscape look.</li>
+                                <li>Stumps can become the perfect home for termites, ants, rodents and even wasps.</li>
+                                <li>Having a stump in your yard can make lawn mowing much harder.</li>
+                                <li>It’s much better to have a flower bed instead of an ugly stump.</li>
+                                <li>Tree roots can become a hidden danger for your house. They damage the foundation of your house.</li>
                             </ol>
                         </div>
                         <div className={style.FirstRowRight}>
                             <Image
-                                src={Work03}
+                                src={Work01}
                                 alt="land before stump gringing"
                             />
                         </div>
@@ -31,25 +32,28 @@ export default function Team () {
                     <div className={style.SecondRow}>
                         <div className={style.SecondRowLeft}>
                             <Image
-                                src={Work04}
+                                src={Work02}
                                 alt="plot before and after stump grinding"
                             />
                         </div>
                         <div className={style.SecondRowRight}>
                             <ol start="6">
-                                <li>It is our rule to have our workplace cleaned up after we are done. It does not affect the price of our service.</li>
-                                <li>We can paper bag the wood chips or we can also take the bags for disposal.</li>
-                                <li>We only use new and professional equipment to get rid of stumps in hard-to-reach places without raising price for this.</li>
-                                <li>We are licensed and insured.</li>
-                                <li>We accept all kinds of payment: cash, cards, checks.</li>
+                                <li>The tree roots above the ground can become a tripping hazard and an obstacle to moving around them.</li>
+                                <li>Stump can occupy your future parking space, and it is also an obstacle in your driveway.</li>
+                                <li>Having an old tree stump next to the playground can pose a real danger to your kids of problems.</li>
+                                <li>A stump can get in the way of putting up a new fence.</li>
+                                <li>Grow a new tree instead of your old stump.</li>
                             </ol>
                         </div>
                         <div className={style.SecondRowLeftMobile}>
                             <Image
-                                src={Work04}
+                                src={Work02}
                                 alt="plot before and after stump grinding"
                             />
                         </div>
+                    </div>
+                    <div className={style.ThirdRow}>
+                        <p>We have experienced all of these, and other problems that you can face. However, we will be happy to help you out and eliminate all these annoying problems. We stump grind quickly, efficiently, and fast.</p>
                     </div>
                 </div>
             </div>

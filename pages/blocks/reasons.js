@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import style from '../../styles/Reasons.module.css'
+import style from '../../styles/Team.module.css'
 
-import Work01 from '../../images/pictures/work01.webp'
-import Work02 from '../../images/pictures/work02.webp'
+import Work03 from '../../images/pictures/work03.webp'
+import Work04 from '../../images/pictures/work04.webp'
 
 export default function Reasons() {
     return (
@@ -10,21 +10,21 @@ export default function Reasons() {
             <div className={style.RotateStrip} id="howwework"></div>
             <div className={style.Wrapper}>
                 <div className={style.Container}>
-                    <h2 className={style.Header}>TOP10 REASONS</h2>
-                    <p className={style.HeaderDescription}>why you should remove the stumps at your property.</p>
+                    <h2 className={style.Header}>why you should only hire our team.</h2>
                     <div className={style.FirstRow}>
                         <div className={style.FirstRowLeft}>
                             <ol>
-                                <li>Old tree stumps can ruin your landscape look.</li>
-                                <li>Stumps can become the perfect home for termites, ants, rodents and even wasps.</li>
-                                <li>Having a stump at your yard can make mowing much harder to perform.</li>
-                                <li>Instead of occupying property&apos;s space with an ugly and rotten stump you could plant some flowers, bushes or have a nice lawn. </li>
-                                <li>Tree roots can become a hidden danger for your house. They damage the underground structure of your residence.</li>
+                                <li>Free estimates. Our technician will come to you to give you a free consultation and a free estimate for stump removal.</li>
+                                <li>We do not do all kinds of tree stumps: small stumps, big stumps. We specialize in tree stump removal. It is the only work we do.</li>
+                                <li>We can fix your schedule. We can come to you from the early morning till late evening all week long.</li>
+                                <li><h3><strong>Free estimate.</strong></h3></li>
+                                <li>All estimates are unique. The prices for our stump removal will pleasantly surprise you. Our stump removal cost is not just competitive; in 8 out of 10 cases, we provide the most affordable stump-out service.</li>
+                                <li>Wide working area. We perform stump grinding in the north of CT, including Hartford County and South of MA states.</li>
                             </ol>
                         </div>
                         <div className={style.FirstRowRight}>
                             <Image
-                                src={Work01}
+                                src={Work03}
                                 alt="land before stump gringing"
                             />
                         </div>
@@ -32,28 +32,26 @@ export default function Reasons() {
                     <div className={style.SecondRow}>
                         <div className={style.SecondRowLeft}>
                             <Image
-                                src={Work02}
+                                src={Work04}
                                 alt="plot before and after stump grinding"
                             />
                         </div>
                         <div className={style.SecondRowRight}>
-                            <ol start="6">
-                                <li>The tree roots which are above the ground can become a tripping hazard and an obstacle to move around them.</li>
-                                <li>Stump can occupy your future parking space and it is also an obstacle at your driveway.</li>
-                                <li>Having an old tree stump next to the playground can pose a real danger to your kids of problem.</li>
-                                <li>Stump can get in the way of putting up a new fence.</li>
-                                <li>Stumps may be the reasons for new trees to grow.</li>
+                            <ol start="7">                                
+                                <li>We will keep your lawn nice and clean after the stump grinding. <h3><strong>Your yard will be ready to reseed.</strong></h3></li>
+                                <li>After stump removal, clean-up is not an additional service. It does not affect your final price.</li>
+                                <li>KEEP IT SIMPLE. The estimation price is your final price - there are no hidden fees or "extra labor" fees.</li>
+                                <li>We only use new professional equipment for tree stump removal.</li>
+                                <li>StumpOFF LLC is licensed and insured.</li>
+                                <li>We accept all kinds of payments: cash, debit/credit cards, bank checks.</li>
                             </ol>
                         </div>
                         <div className={style.SecondRowLeftMobile}>
                             <Image
-                                src={Work02}
+                                src={Work04}
                                 alt="plot before and after stump grinding"
                             />
                         </div>
-                    </div>
-                    <div className={style.ThirdRow}>
-                        <p>We have experienced all these, and other kinds of problem people face when having a tree stump in their yard. However, we will be happy and eager to help you out and get rid of all these unnecessary problems. We perform our work easily, efficiently, fast and best.</p>
                     </div>
                 </div>
             </div>

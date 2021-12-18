@@ -11,19 +11,23 @@ export default function GetaQuote() {
         <div className={style.Wrapper} id="getaquote">
             <div className={style.Container}>
                 <div className={style.Photos}>
-                    <Image
-                        src={Work05}
-                        alt="stumoff truck after stum grinding"
-                    />
-                    <Image
-                        src={Work06}
-                        alt="good looking place after grinding stump"
-                    />
+                    <div className={style.PhotosImg}>
+                        <Image
+                            src={Work05}
+                            alt="stumoff truck after stum grinding"
+                        />
+                    </div>
+                    <div className={style.PhotosImg}>
+                        <Image
+                            src={Work06}
+                            alt="good looking place after grinding stump"
+                        />
+                    </div>
                 </div>
                 <div className={style.ContactForm}>
                     <h2 className={style.Header}>Get a quote</h2>
-                    <p style={{ paddingBottom: "1em" }}>Save time by filling out a quote request online.</p>
-                    <p>In order to receive a quote please take a picture of your stump with its exact size including diameter and height.</p>
+                    <p style={{ paddingBottom: "1em" }}>Stump grinding cost quote request</p>
+                    <p>All our quotes are in person. StumpOff technicians will come and make a unique estimate.</p>
                     <div className={style.PhotosMobile}>
                         <Image
                             src={Work05}

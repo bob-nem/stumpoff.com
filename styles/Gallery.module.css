@@ -7,6 +7,9 @@
 .MainImg {
     position: relative;
     z-index: -1;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 0 6px;
 }
 
 .Header {
@@ -27,6 +30,14 @@
 
 .ArrowRight:hover, .ArrowLeft:hover {
     color: #ff9045;
+}
+
+.Thumb {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 3px 8px 0;
 }
 
 @media only screen and (max-width: 87.5rem) {
@@ -52,6 +63,14 @@
     .ArrowLeft {
         position: relative;
         margin-left: 1.6rem;
+    }
+    .MainImg {
+        border-radius: 1.5rem;
+        padding-top: 2px;
+    }
+    .Thumb {
+        border-radius: 1.5rem;
+        padding: 2px 5px 0;
     }
 }
 

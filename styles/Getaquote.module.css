@@ -25,6 +25,14 @@
     margin-right: -16rem;
 }
 
+.PhotosImg {
+    display: flex;
+    align-items: stretch;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
+}
+
 .PhotosMobile {
     display: none;
 }
@@ -33,7 +41,8 @@
     width: 60rem;
     background-color: white;
     border-radius: 5rem;
-    padding: 0 4rem 0 20rem;    
+    padding: 0 4rem 0 20rem;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .ContactForm p {

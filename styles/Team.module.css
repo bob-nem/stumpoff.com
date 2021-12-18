@@ -1,15 +1,14 @@
 .RotateStrip {
     height: 8rem;
     width: 1920px;
-    background-color: #ff9045;
+    background-color: #d2e7f9;
     transform: rotate(357deg);
-    margin-top: -3rem;
 }
 
 .Wrapper {
-    background-color: #ff9045;
+    background-color: #d2e7f9;
     margin-top: -4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .Container {
@@ -22,7 +21,7 @@
 }
 
 .Header{
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     position: relative;
     text-transform: uppercase;
@@ -34,6 +33,7 @@
 .FirstRow {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .FirstRowLeft {
@@ -43,7 +43,27 @@
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
-    margin-right: 1em;    
+    margin-right: 1em;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
+}
+
+.FirstRowLeft h3 {
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: #074578;
+    font-size: 21px;
+    -webkit-text-stroke: 0px #074578;
+    text-shadow: 0px 0px 0px #074578;
+}
+
+.FirstRowRight {
+    display: flex;
+    align-items: stretch;
+    margin-left: 1em;
+    width: 50%;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .SecondRow {
@@ -52,15 +72,14 @@
     justify-content: space-between;
 }
 
-.FirstRowRight {
-    margin-left: 1em;
-    width: 50%;
-}
-
 .SecondRowLeft {
-    margin-right:1em;
-    margin-top: -6rem;
+    display: flex;
+    align-items: stretch;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 3rem;
     width: 50%;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .SecondRowLeftMobile {
@@ -75,6 +94,16 @@
     padding: 1rem;
     margin-top: 3rem;
     margin-left: 2em;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
+}
+
+.SecondRowRight h3 {
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: #074578;
+    font-size: 21px;
+    -webkit-text-stroke: 0px #074578;
+    text-shadow: 0px 0px 0px #074578;
 }
 
 @media only screen and (max-width: 87.5rem) {
@@ -82,21 +111,40 @@
         max-width: 60rem;
     }
     .Header {
+        font-size: 3rem;
         -webkit-text-stroke: 1px #074578;
+    }
+    .FirstRowLeft {
+        width: 65%;
+        padding: .75rem 1.5rem .25rem .5rem;
+        text-align: justify;
+    }
+    .FirstRowLeft h3 {
+        font-size: 18px;
+    }
+    .FirstRowRight {
+        height: 402px;
     }
 
     .SecondRow {
         margin-top: 0; 
     }
     .SecondRowLeft {
+        width: 65%;
         margin-top: 1em;
     }
     .SecondRowRight {
-        margin-top: -2rem;
+        text-align: justify;
+    }
+    .SecondRowRight h3 {
+        font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 75rem) {
+    .RotateStrip {
+        margin-top: -2rem;
+    }
     .Wrapper {
         padding-bottom: 2rem;
     }
@@ -115,11 +163,12 @@
     .FirstRowLeft {
         width: 95%;
         margin: 0 auto;
-        padding: .5rem;
+        padding: .5rem 1rem .5rem 0;
     }
     .FirstRowRight {
         width: 100%;
         margin: .75rem auto;
+        border-radius: 0;
     }
     .SecondRow {
         flex-direction: column;
@@ -131,7 +180,7 @@
     .SecondRowRight {
         width: 95%;
         margin: 0 auto;
-        padding: .5rem;
+        padding: .5rem 1rem .5rem 0;
     }
     .SecondRowLeftMobile {
         display: flex;

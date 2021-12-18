@@ -23,6 +23,16 @@
     margin-top: 8rem;
 }
 
+.Left h3 {
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: #074578;
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0px #074578;
+    text-shadow: 0px 0px 0px #074578;
+    line-height: 1.6;
+}
+
 .Left p {
     text-align: justify;
     font-size: 1.5rem;
@@ -41,6 +51,7 @@
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    margin-top: -.5rem;
 }
 
 .Image {
@@ -53,6 +64,14 @@
     display: flex;
     justify-content: center;
     margin: 3rem 0;
+}
+
+.FeedbackLink {
+    color: #ff9045;
+}
+
+.FeedbackLink:hover {
+    color: #074578;
 }
 
 .Button {
@@ -81,6 +100,18 @@
     .Wrapper {
         max-width: 60rem;
     }
+    .Left h3 {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    .Left p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        margin-top: 1.5rem;
+    }
+    .Right {
+        margin-top: 2.5rem;
+    }
 }
 
 @media only screen and (max-width: 75rem) {
@@ -97,14 +128,19 @@
         text-align: center;
         margin-top: 3rem;
     }
+    .Left h3 {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
     .Left p {
         font-size: 1rem;
         margin-top: 1rem;
+        line-height: 1.6;
     }
     .GetQuoteMobile {
         display: flex;
         justify-content: center;
-        margin: 1rem 0;
+        margin: 2rem 0 1rem;
     }
     .GetQuote {
         display: none;

@@ -1,14 +1,15 @@
 .RotateStrip {
     height: 8rem;
     width: 1920px;
-    background-color: #d2e7f9;
+    background-color: #ff9045;
     transform: rotate(357deg);
+    margin-top: -3rem;
 }
 
 .Wrapper {
-    background-color: #d2e7f9;
+    background-color: #ff9045;
     margin-top: -4rem;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
 .Container {
@@ -44,11 +45,12 @@
 
 .FirstRowLeft {
     height: fit-content;
-    width: 50%;
+    width: 60%;
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
     margin-right: 1em;    
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .SecondRow {
@@ -57,11 +59,21 @@
 }
 
 .FirstRowRight {
+    display: flex;
+    align-items: stretch;
+    border-radius: 1rem;
+    overflow: hidden;
     margin-left: 1em;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .SecondRowLeft {
+    display: flex;
+    align-items: stretch;
+    border-radius: 1rem;
+    overflow: hidden;
     margin-right:1em;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .SecondRowLeftMobile {
@@ -70,21 +82,23 @@
 
 .SecondRowRight {
     height: fit-content;
-    width: 50%;
+    width: 55%;
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
     margin-top: 8rem;
-    margin-left: 2em;
+    margin-left: 1em;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .ThirdRow {
+    background-color: white;
+    border-radius: 1rem;
     margin-top: 2rem;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
 }
 
 .ThirdRow p {
-    background-color: white;
-    border-radius: 1rem;
     line-height: 1.6;
     padding: 1rem 2rem;
 }
@@ -100,16 +114,16 @@
         margin-top: 0;
     }
     .SecondRowLeft {
-        padding-top: 1em;
+        margin-top: -2.5em;
     }
     .SecondRowRight {
-        margin-top: -1rem;
+        margin-top: 2rem;
     }
 }
 
 @media only screen and (max-width: 75rem) {
     .RotateStrip {
-        margin-top: -2rem;
+        margin-top: -3.2rem;
     }
     .Wrapper {
         margin-top: -2rem;
@@ -132,11 +146,12 @@
     .FirstRowLeft {
         width: 95%;
         margin: 0 auto;
-        padding: .5rem;
+        padding: .5rem 1rem .5rem 0;
     }
     .FirstRowRight {
         width: 100%;
         margin: .75rem auto;
+        border-radius: 0;
     }
     .SecondRow {
         flex-direction: column;
@@ -148,7 +163,7 @@
     .SecondRowRight {
         width: 95%;
         margin: 0 auto;
-        padding: .5rem;
+        padding: .5rem 1rem .5rem 0;
     }
     .SecondRowLeftMobile {
         display: flex;
@@ -158,6 +173,8 @@
         width: 95%;
         font-size: 1rem;
         margin: 0 auto;
+        text-align: justify;
+        margin-top: 1rem;
     }
     .ThirdRow p {
         font-size: 1rem;
