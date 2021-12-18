@@ -17,7 +17,7 @@ export default function Home() {
     <div className={style.container}>
       <Head>
         <title>Tree Stump Grinding</title>
-        <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps" />
+        <meta name="description" content="Remove tree stumps in CT. Free estimate (860)841 80 34. We are professionals who are ready to quickly and completely get the job done" />
         <link rel="canonical" href="https://stumpoff.com" key="canonical" />
       </Head>
       <main className={style.main}>

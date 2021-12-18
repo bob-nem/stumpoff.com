@@ -34,21 +34,21 @@ function MyApp({ Component, pageProps }) {
         />
         <link
           rel="preload"
-          href="/fonts/Ubuntu-Light.ttf)"
+          href="/fonts/Ubuntu-Light.ttf"
           as="font"
           type="font/ttf"
           crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="/fonts/Ubuntu-Regular.ttf)"
+          href="/fonts/Ubuntu-Regular.ttf"
           as="font"
           type="font/ttf"
           crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="/fonts/Ubuntu-Medium.ttf)"
+          href="/fonts/Ubuntu-Medium.ttf"
           as="font"
           type="font/ttf"
           crossOrigin="anonymous"

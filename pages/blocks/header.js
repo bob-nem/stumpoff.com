@@ -40,7 +40,7 @@ export default function Header() {
             <p className={style.HeaderDescription}><strong>We are professionals who are ready to<br /> quickly and completely remove tree stumps</strong></p>
             <div style={{ display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
                 <AnchorLink href='#contact'>
-                    <a><button className={style.Button}>Contact us</button></a>
+                    <button className={style.Button}>Contact us</button>
                 </AnchorLink>
             </div>
         </div>

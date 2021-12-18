@@ -17,7 +17,7 @@ export default function About() {
                     <p style={{ paddingBottom: '1rem' }}>We provide the LOWEST prices for service in Connecticut.</p>
                     <div className={style.GetQuoteMobile}>
                         <AnchorLink href='#getaquote'>
-                            <a><button className={style.Button}>Get a quote</button></a>
+                            <button className={style.Button}>Get a quote</button>
                         </AnchorLink>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <div className={style.GetQuote}>
                 <AnchorLink href='#getaquote'>
-                    <a><button className={style.Button}>Get a quote</button></a>
+                    <button className={style.Button}>Get a quote</button>
                 </AnchorLink>
             </div>
         </div>
