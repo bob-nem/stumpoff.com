@@ -40,7 +40,7 @@ export default function Reasons() {
                             <ol start="7">                                
                                 <li>We will keep your lawn nice and clean after the stump grinding. <h3><strong>Your yard will be ready to reseed.</strong></h3></li>
                                 <li>After stump removal, clean-up is not an additional service. It does not affect your final price.</li>
-                                <li>KEEP IT SIMPLE. The estimation price is your final price - there are no hidden fees or "extra labor" fees.</li>
+                                <li>KEEP IT SIMPLE. The estimation price is your final price - there are no hidden fees or &quot;extra labor&quot; fees.</li>
                                 <li>We only use new professional equipment for tree stump removal.</li>
                                 <li>StumpOFF LLC is licensed and insured.</li>
                                 <li>We accept all kinds of payments: cash, debit/credit cards, bank checks.</li>
