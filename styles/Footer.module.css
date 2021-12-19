@@ -20,6 +20,14 @@
     color: #ff9045;
 }
 
+.Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .Links, .Contacts {
     display: flex;
     flex-direction: column;
@@ -72,6 +80,17 @@
 }
   
 .UnderFooterLink:hover {
+    color: #ff9045;
+}
+
+.socialsIcon {
+    min-width: 38px;
+    color: white;
+    font-size: 2.3rem;
+    padding: 0 4px;
+  }
+  
+.socialsIcon:hover {
     color: #ff9045;
 }
 

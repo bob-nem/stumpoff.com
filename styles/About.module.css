@@ -51,7 +51,6 @@
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    margin-top: -.5rem;
 }
 
 .Image {
@@ -110,7 +109,7 @@
         margin-top: 1.5rem;
     }
     .Right {
-        margin-top: 2.5rem;
+        margin-top: 3rem;
     }
 }
 

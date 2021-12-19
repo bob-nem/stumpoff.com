@@ -2,6 +2,7 @@ import Image from 'next/image'
 import style from '../../styles/Footer.module.css'
 import EmailForm from './email-form'
 import Link from 'next/link'
+import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs'
 
 import StumpOffLogo from '../../images/icons/footerLogo.webp'
 
@@ -18,6 +19,18 @@ export default function Footer() {
                             />
                         </a>
                     </Link>
+                    <p style={{ color: "white", paddingBottom: "4px", minWidth: "10rem", fontSize: "1rem", textAlign: "center" }}>We are in socials:</p>
+                    <div>
+                        <Link href='https://www.facebook.com/StumpOFF/'>
+                            <a target="_blank"><BsFacebook className={style.socialsIcon} /></a>
+                        </Link>
+                        <Link href='https://twitter.com/stump_off'>
+                            <a target="_blank"><BsTwitter className={style.socialsIcon} /></a>
+                        </Link>
+                        <Link href='https://www.instagram.com/stump_off/'>
+                            <a target="_blank"><BsInstagram className={style.socialsIcon} /></a>
+                        </Link>
+                    </div>
                 </div>
                 <div className={style.Links}>
                     <ul>

@@ -87,7 +87,7 @@ export default function Gallery() {
     };
 
     return (
-        <div className={style.Container} id="gallery">
+        <div className={style.Container} id="portfolio">
             <h2 className={style.Header}>Portfolio</h2>
             <p className={style.Description}>Stump Grinding Near me before and after</p>
             <Slider

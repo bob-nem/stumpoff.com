@@ -8,8 +8,8 @@ import Gicon from '../../images/icons/google.png'
 
 export default function Feedback() {
     return (
-        <div className={style.Container} id="feedback">
-            <h2 className={style.Header}>Feedback</h2>
+        <div className={style.Container} id="reviews">
+            <h2 className={style.Header}>Reviews</h2>
             <p>What our customers says in socials</p>
             <div className={style.ReviewList} >
                 <div className={style.Review}>

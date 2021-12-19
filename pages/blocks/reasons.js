@@ -10,7 +10,7 @@ export default function Reasons() {
             <div className={style.RotateStrip} id="howwework"></div>
             <div className={style.Wrapper}>
                 <div className={style.Container}>
-                    <h2 className={style.Header}>why you should only hire our team.</h2>
+                    <h2 className={style.Header}>12 reasons why we are the best stump grinding local company?</h2>
                     <div className={style.FirstRow}>
                         <div className={style.FirstRowLeft}>
                             <ol>
