@@ -1,20 +1,13 @@
-.RotateStrip {
-    display: none;
-    height: 8rem;
-    width: 1920px;
-    background-color: #ff9045;
-    transform: rotate(357deg);
-    margin-top: -3rem;
-}
-
 .Wrapper {
     background-color: #ff9045;
-    padding: 4rem 0;
+    padding: 4rem 0;    
 }
 
 .Container {
+    position: relative;
     max-width: 75rem;
     margin: 0 auto;
+    margin-top: -16rem;
 }
 
 .Header{
@@ -31,12 +24,82 @@
     text-align: justify;
     border-radius: 1rem;
     overflow: hidden;
-    padding: 2rem;
+    padding: 2rem 2rem 4rem;
     margin-top: 1rem;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
+}
+
+.ShinyStump {
+    background-image: url(../images/pictures/stump.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0 4rem;
+    margin-top: -3rem;
+    margin-bottom: -15rem;
+    box-shadow: 0px 0px 8px 0px rgba(32, 32, 32, 0.25);
+    height: 600px;
+}
+
+.SvgTop {
+    margin-top: -8rem;
+    margin-bottom: -1rem;
+}
+
+.SvgBottom {
+    background-color: #ff9045;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+    z-index: -1;
+    position: relative;
 }
 
 @media only screen and (max-width: 87.5rem) {
     .Container {
         max-width: 60rem;
+        margin-top: -11rem;
+    }
+    .ShinyStump {
+        height: 500px;
+        margin-bottom: -12rem;
+    }
+    .SvgTop {
+        margin-top: -5rem;
+    }
+    .SvgBottom {
+        margin-bottom: -1rem;
+    }
+}
+
+@media only screen and (max-width: 75rem) {
+    .Container {
+        margin-top: -4rem;
+    }
+    .Header {
+        font-size: 2.5rem;
+        -webkit-text-stroke: 2px #074578;
+    }
+    .SvgTop {
+        margin-top: -2rem;
+    }
+    .SvgBottom {
+        margin-bottom: -4px;
+    }
+    .BackGround {
+        padding: 2rem .75rem 4rem;
+    }
+    .ShinyStump {
+        margin: 0 1.25rem;
+        height: 420px;
+        margin-top: -3rem;
+        margin-bottom: -3.5rem;
+    }
+}
+
+@media only screen and (max-width: 30rem) {
+    .ShinyStump {
+        height: 280px;
     }
 }

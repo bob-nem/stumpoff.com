@@ -13,7 +13,7 @@ export default function EmailForm() {
         
         let config = {
             method: 'post',
-            url: `${API_KEY.url}/api/contact`,
+            url: `${API_KEY.url}/api/contactapi`,
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -23,8 +23,9 @@ export default function EmailForm() {
         try {
             const response = await axios(config);
             console.log(response);
-            if (response.data.status == 200) {
+            if (response.status == 200) {
                 reset();
+                router.push('/');
                 toast(
                     'success',
                     'Thank you for contacting us, we will be in touch soon.'
