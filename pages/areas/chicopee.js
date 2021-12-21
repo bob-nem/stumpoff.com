@@ -25,7 +25,7 @@ export default function Holyoke() {
                 <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps in Chicopee" />
                 <link rel="canonical" href="https://stumpoff.com" key="canonical" />
                 <meta property="og:title" content="Tree Stump Grinding" />
-                <meta property="og:description" content="StumpOFF LLC is a local professional stump grinding company specializing in tree stump grinding in Connecticut, Chicopee. We guarantee a careful, clean, and professional job." />
+                <meta property="og:description" content="StumpOFF LLC is a local professional stump grinding company specializing in tree stump grinding in Massachusetts, Chicopee. We guarantee a careful, clean, and professional job." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://stumpoff.com/chicopee" />
                 <meta property="og:image" content="https://stumpoff.com/images/stump.webp" />

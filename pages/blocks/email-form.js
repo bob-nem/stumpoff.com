@@ -26,10 +26,6 @@ export default function EmailForm() {
             if (response.status == 200) {
                 reset();
                 router.push('/');
-                toast(
-                    'success',
-                    'Thank you for contacting us, we will be in touch soon.'
-                );
             }
         } catch (err) { console.log(err); }
     }
