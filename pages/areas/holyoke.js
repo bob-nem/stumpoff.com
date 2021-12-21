@@ -24,6 +24,15 @@ export default function Holyoke() {
                 <title>Tree Stump Grinding in Holyoke</title>
                 <meta name="description" content="We are professionals who are ready to quickly and completely remove tree stumps in Holyoke" />
                 <link rel="canonical" href="https://stumpoff.com" key="canonical" />
+                <meta property="og:title" content="Tree Stump Grinding" />
+                <meta property="og:description" content="StumpOFF LLC is a local professional stump grinding company specializing in tree stump grinding in Connecticut, Holyoke. We guarantee a careful, clean, and professional job." />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://stumpoff.com/holyoke" />
+                <meta property="og:image" content="https://stumpoff.com/images/stump.webp" />
+                <meta property="og:image:alt" content="A shiny stump before removing" />
+                <meta property="og:image:type" content="image/webp" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:locale:alternate" content="en_GB" />
             </Head>
             <div className={style.container} id="home">
                 <div className={style.label}>
