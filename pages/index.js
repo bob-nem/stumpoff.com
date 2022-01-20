@@ -19,6 +19,9 @@ export default function Home() {
       <Head>
         <title>Tree Stump Grinding </title>
         <meta name="description" content="StumpOFF LLC is a local professional stump grinding company specializing in tree stump grinding in Connecticut. We guarantee a careful, clean, and professional job." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="tree stump grinding, stump removal" />
+        <meta name="author" content="it.for-all.world" />
         <link rel="canonical" href="https://stumpoff.com" key="canonical" />
         <meta property="og:title" content="Tree Stump Grinding" />
         <meta property="og:description" content="StumpOFF LLC is a local professional stump grinding company specializing in tree stump grinding in Connecticut. We guarantee a careful, clean, and professional job." />
